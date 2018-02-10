@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\WordClock\core\gpio /I..\..\..\workspace\WordClock\core\timer16 /I..\..\..\workspace\WordClock\cmsis /I..\..\..\workspace\WordClock /I..\..\..\workspace\WordClock\USB_Stack /I..\..\..\workspace\WordClock\cmsis_boot /I..\..\..\workspace\WordClock\core\i2c /I..\..\..\workspace\WordClock\core\timer32 /I..\..\..\workspace\WordClock\core\adc /I..\..\..\workspace /I..\..\.. /I..\..\..\workspace\WordClock\lpc13xx_lib /I..\..\..\workspace\WordClock\lpc13xx_lib\include /I..\..\..\workspace\WordClock\core\ssp /I..\..\..\workspace\WordClock\core">
+      <source file="..\..\..\core\gpio\gpio.h" lastModified="12ca7a72590">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="12ca7a72d60">
+      </source>
+      <source file="..\..\..\USB_Stack\cdc.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\ScreenFunctions.c" lastModified="157f12eb2c0">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+      </source>
+      <source file="..\..\..\core\gpio\gpio.c" lastModified="14bd6738570">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc13xx_syscon.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc13xx_libcfg.h"/>
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.c" lastModified="1579fba57e8">
+      </source>
+      <source file="..\..\..\USB_Stack\usbhw.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\projectconfig.h" lastModified="16161ea9626">
+      </source>
+      <source file="..\..\..\Peripherals.h" lastModified="157deb13938">
+      </source>
+      <source file="..\..\..\USB_Stack\usbhw.c" lastModified="157ce2ee3d0">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbreg.h"/>
+         <include file="..\..\..\USB_Stack\usbhw.h"/>
+         <include file="..\..\..\USB_Stack\usbcore.h"/>
+         <include file="..\..\..\USB_Stack\usbuser.h"/>
+      </source>
+      <source file="..\..\..\Peripherals.c" lastModified="16161e904f9">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\Peripherals.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\core\adc\adc.h"/>
+         <include file="..\..\..\ds1337.h"/>
+         <include file="..\..\..\globalcomm.h"/>
+      </source>
+      <source file="..\..\..\core\timer16\timer16.h" lastModified="157a0d67d86">
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\serial.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\core\timer16\timer16.c" lastModified="1583b1a7b08">
+         <include file="..\..\..\core\timer16\timer16.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\core\timer16\timer16.h"/>
+         <include file="..\..\..\Peripherals.h"/>
+         <include file="..\..\..\ScreenFunctions.h"/>
+         <include file="..\..\..\CapacitiveTouch.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\serial.c" lastModified="1580c1fea40">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\USB_Stack\serial.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+      </source>
+      <source file="..\..\..\lpc13xx_lib\include\lpc13xx_libcfg.h" lastModified="12ca7a72590">
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\lpc13xx_lib\source\lpc13xx_syscon.c" lastModified="12ca7a72590">
+         <include file="..\..\..\lpc13xx_lib\include\lpc13xx_syscon.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc13xx_libcfg.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\usbdesc.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\flashmemory.h" lastModified="1587815abe0">
+      </source>
+      <source file="..\..\..\Audio.h" lastModified="15a4d479408">
+      </source>
+      <source file="..\..\..\USB_Stack\usbdesc.c" lastModified="13b9ef7dbb0">
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\cdc.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbdesc.h"/>
+         <include file="..\..\..\USB_Stack\config.h"/>
+      </source>
+      <source file="..\..\..\DisplayGraphics.h" lastModified="1580bb52a20">
+      </source>
+      <source file="..\..\..\USB_Stack\type.h" lastModified="13b9ef7df98">
+      </source>
+      <source file="..\..\..\globalcomm.h" lastModified="158781b8010">
+      </source>
+      <source file="..\..\..\flashmemory.c" lastModified="158f0430590">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\core\ssp\ssp.h"/>
+         <include file="..\..\..\flashmemory.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+         <include file="..\..\..\USB_Stack\cdcuser.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_lpc13xx.c" lastModified="12ca7a72590">
+      </source>
+      <source file="..\..\..\Audio.c" lastModified="15a4d47cab8">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\CapacitiveTouch.h"/>
+         <include file="..\..\..\flashmemory.h"/>
+         <include file="..\..\..\core\timer16\timer16.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\usbcore.h" lastModified="14ccccad090">
+      </source>
+      <source file="..\..\..\DisplayGraphics.c" lastModified="1615f76685f">
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\DisplayModes.h"/>
+         <include file="..\..\..\ScreenFunctions.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\DisplayGraphics.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\usb.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\USB_Stack\usbcfg.h" lastModified="158751e16c0">
+      </source>
+      <source file="..\..\..\globalcomm.c" lastModified="16161fe0a0f">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbhw.h"/>
+         <include file="..\..\..\USB_Stack\usbcore.h"/>
+         <include file="..\..\..\USB_Stack\cdc.h"/>
+         <include file="..\..\..\USB_Stack\cdcuser.h"/>
+         <include file="..\..\..\USB_Stack\serial.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\globalcomm.h"/>
+         <include file="..\..\..\CapacitiveTouch.h"/>
+         <include file="..\..\..\DisplayModes.h"/>
+         <include file="..\..\..\flashmemory.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\usbcore.c" lastModified="14ccccae800">
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbhw.h"/>
+         <include file="..\..\..\USB_Stack\usbcore.h"/>
+         <include file="..\..\..\USB_Stack\usbdesc.h"/>
+         <include file="..\..\..\USB_Stack\usbuser.h"/>
+         <include file="..\..\..\Audio.h"/>
+         <include file="..\..\..\USB_Stack\cdc.h"/>
+         <include file="..\..\..\USB_Stack\cdcuser.h"/>
+      </source>
+      <source file="..\..\..\core\ssp\ssp.h" lastModified="158103591c0">
+      </source>
+      <source file="..\..\..\CapacitiveTouch.h" lastModified="1581080a2d6">
+      </source>
+      <source file="..\..\..\lpc13xx_lib\include\lpc13xx_syscon.h" lastModified="12ca7a72590">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\core\ssp\ssp.c" lastModified="1581035b100">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\core\ssp\ssp.h"/>
+      </source>
+      <source file="..\..\..\CapacitiveTouch.c" lastModified="158107fece8">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\CapacitiveTouch.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\globalcomm.h"/>
+         <include file="..\..\..\DisplayGraphics.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\config.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16161eac67d">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbhw.h"/>
+         <include file="..\..\..\USB_Stack\usbcore.h"/>
+         <include file="..\..\..\USB_Stack\cdc.h"/>
+         <include file="..\..\..\USB_Stack\cdcuser.h"/>
+         <include file="..\..\..\core\adc\adc.h"/>
+         <include file="..\..\..\ds1337.h"/>
+         <include file="..\..\..\Peripherals.h"/>
+         <include file="..\..\..\globalcomm.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+         <include file="..\..\..\CapacitiveTouch.h"/>
+         <include file="..\..\..\ScreenFunctions.h"/>
+         <include file="..\..\..\core\ssp\ssp.h"/>
+         <include file="..\..\..\flashmemory.h"/>
+      </source>
+      <source file="..\..\..\core\i2c\i2c.h" lastModified="140b778ccd0">
+         <include file="..\..\..\USB_Stack\type.h"/>
+      </source>
+      <source file="..\..\..\core\i2c\i2c.c" lastModified="157877617b0">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\core\i2c\i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_LPC13xx.h" lastModified="12ca7a72590">
+      </source>
+      <source file="..\..\..\USB_Stack\usbuser.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_LPC13xx.c" lastModified="12ca7a72978">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\usbuser.c" lastModified="1588df48c60">
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbhw.h"/>
+         <include file="..\..\..\USB_Stack\usbcore.h"/>
+         <include file="..\..\..\USB_Stack\usbuser.h"/>
+         <include file="..\..\..\USB_Stack\cdcuser.h"/>
+      </source>
+      <source file="..\..\..\core\timer32\timer32.h" lastModified="140bbd7a2b0">
+      </source>
+      <source file="..\..\..\ds1337.h" lastModified="157a349db48">
+         <include file="..\..\..\projectconfig.h"/>
+      </source>
+      <source file="..\..\..\DisplayModes.h" lastModified="16161e6c3d2">
+      </source>
+      <source file="..\..\..\lpc13xx_lib\include\lpc_types.h" lastModified="12ca7a72978">
+      </source>
+      <source file="..\..\..\core\timer32\timer32.c" lastModified="1580a4b5f00">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\core\timer32\timer32.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\CapacitiveTouch.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\usbreg.h" lastModified="13b9ef7dbb0">
+      </source>
+      <source file="..\..\..\cmsis_boot\LPC13xx.h" lastModified="12ca7a72590">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_LPC13xx.h"/>
+      </source>
+      <source file="..\..\..\ds1337.c" lastModified="157a34caf58">
+         <include file="..\..\..\core\gpio\gpio.h"/>
+         <include file="..\..\..\core\i2c\i2c.h"/>
+         <include file="..\..\..\ds1337.h"/>
+         <include file="..\..\..\USB_Stack\serial.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+      </source>
+      <source file="..\..\..\USB_Stack\cdcuser.h" lastModified="1587a065c38">
+      </source>
+      <source file="..\..\..\core\adc\adc.h" lastModified="14090d029c0">
+      </source>
+      <source file="..\..\..\USB_Stack\cdcuser.c" lastModified="158f02e8b60">
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\USB_Stack\usb.h"/>
+         <include file="..\..\..\USB_Stack\usbhw.h"/>
+         <include file="..\..\..\USB_Stack\usbcfg.h"/>
+         <include file="..\..\..\USB_Stack\usbcore.h"/>
+         <include file="..\..\..\USB_Stack\cdc.h"/>
+         <include file="..\..\..\USB_Stack\cdcuser.h"/>
+         <include file="..\..\..\USB_Stack\serial.h"/>
+      </source>
+      <source file="..\..\..\core\adc\adc.c" lastModified="1500944a0c0">
+         <include file="..\..\..\cmsis_boot\LPC13xx.h"/>
+         <include file="..\..\..\core\adc\adc.h"/>
+         <include file="..\..\..\lpc13xx_lib\include\lpc_types.h"/>
+         <include file="..\..\..\USB_Stack\type.h"/>
+         <include file="..\..\..\projectconfig.h"/>
+      </source>
+      <source file="..\..\..\ScreenFunctions.h" lastModified="157f1266d90">
+      </source>
+   </includePath>
+</dependencies>

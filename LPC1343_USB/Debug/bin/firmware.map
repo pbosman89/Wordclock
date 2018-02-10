@@ -1,0 +1,1529 @@
+Archive member included because of file (symbol)
+
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+                              ..\obj\globalcomm.o (atoi)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+                              ..\obj\globalcomm.o (memset)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+                              ..\obj\globalcomm.o (strlen)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+                              ..\obj\globalcomm.o (strncpy)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+                              ..\obj\globalcomm.o (strstr)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+                              ..\obj\globalcomm.o (strtok_r)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+                              c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o) (_strtol_r)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+                              c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o) (__ctype_ptr__)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                              c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o) (_impure_ptr)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+                              c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o) (memchr)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+                              c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o) (memcmp)
+c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)
+                              c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o) (strchr)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_AltSetting      0x1               ..\obj\usbcore.o
+UploadAudioProcessingSize
+                    0x4               ..\obj\main.o
+I2CReadLength       0x4               ..\obj\i2c.o
+I2CSlaveBuffer      0x40              ..\obj\i2c.o
+EP0Buf              0x40              ..\obj\usbcore.o
+USB_EndPointMask    0x4               ..\obj\usbcore.o
+USB_DeviceAddress   0x1               ..\obj\usbcore.o
+BulkBufOut          0x40              ..\obj\cdcuser.o
+UploadAudioProcessing
+                    0x1               ..\obj\main.o
+USB_EndPointStall   0x4               ..\obj\usbcore.o
+Hours               0x4               ..\obj\main.o
+NewColumnData       0x34              ..\obj\ScreenFunctions.o
+NotificationBuf     0xa               ..\obj\cdcuser.o
+ser_in              0x88              ..\obj\serial.o
+ser_txRestart       0x4               ..\obj\serial.o
+I2CMode             0x4               ..\obj\i2c.o
+i                   0x4               ..\obj\ds1337.o
+BulkBufIn           0x40              ..\obj\cdcuser.o
+I2CMasterBuffer     0x40              ..\obj\i2c.o
+USB_EndPointHalt    0x4               ..\obj\usbcore.o
+CommBuff            0x40              ..\obj\globalcomm.o
+CDC_InBuf           0x208             ..\obj\cdcuser.o
+CapRawVal           0x8               ..\obj\CapacitiveTouch.o
+I2CWriteLength      0x4               ..\obj\i2c.o
+USB_Configuration   0x1               ..\obj\usbcore.o
+ADCValue            0x20              ..\obj\adc.o
+ser_lineState       0x2               ..\obj\serial.o
+Location            0xc               ..\obj\globalcomm.o
+SetupPacket         0x8               ..\obj\usbcore.o
+USB_NumInterfaces   0x1               ..\obj\usbcore.o
+ser_out             0x88              ..\obj\serial.o
+Minutes             0x4               ..\obj\main.o
+Seconds             0x4               ..\obj\main.o
+EP0Data             0x8               ..\obj\usbcore.o
+CDC_OutBuf          0x208             ..\obj\cdcuser.o
+USB_DeviceStatus    0x2               ..\obj\usbcore.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\i2c.o
+ .data          0x00000000        0x0 ..\obj\i2c.o
+ .text.I2CStart
+                0x00000000       0x34 ..\obj\i2c.o
+ .text.I2CStop  0x00000000       0x34 ..\obj\i2c.o
+ .text          0x00000000        0x0 ..\obj\ds1337.o
+ .data          0x00000000        0x0 ..\obj\ds1337.o
+ .text          0x00000000        0x0 ..\obj\core_cm3.o
+ .data          0x00000000        0x0 ..\obj\core_cm3.o
+ .bss           0x00000000        0x0 ..\obj\core_cm3.o
+ .text.__get_PSP
+                0x00000000        0x8 ..\obj\core_cm3.o
+ .text.__set_PSP
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__get_MSP
+                0x00000000        0x8 ..\obj\core_cm3.o
+ .text.__set_MSP
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__get_BASEPRI
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__set_BASEPRI
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__get_PRIMASK
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__set_PRIMASK
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__get_FAULTMASK
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__set_FAULTMASK
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__get_CONTROL
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__set_CONTROL
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__REV    0x00000000        0x4 ..\obj\core_cm3.o
+ .text.__REV16  0x00000000        0x4 ..\obj\core_cm3.o
+ .text.__REVSH  0x00000000        0x4 ..\obj\core_cm3.o
+ .text.__RBIT   0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__LDREXB
+                0x00000000        0x8 ..\obj\core_cm3.o
+ .text.__LDREXH
+                0x00000000        0x8 ..\obj\core_cm3.o
+ .text.__LDREXW
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .text.__STREXB
+                0x00000000        0x8 ..\obj\core_cm3.o
+ .text.__STREXH
+                0x00000000        0x8 ..\obj\core_cm3.o
+ .text.__STREXW
+                0x00000000        0x6 ..\obj\core_cm3.o
+ .debug_info    0x00000000      0x561 ..\obj\core_cm3.o
+ .debug_abbrev  0x00000000       0xbd ..\obj\core_cm3.o
+ .debug_loc     0x00000000      0x33a ..\obj\core_cm3.o
+ .debug_aranges
+                0x00000000       0xc8 ..\obj\core_cm3.o
+ .debug_ranges  0x00000000       0xb8 ..\obj\core_cm3.o
+ .debug_line    0x00000000      0x269 ..\obj\core_cm3.o
+ .debug_str     0x00000000      0x265 ..\obj\core_cm3.o
+ .comment       0x00000000       0x71 ..\obj\core_cm3.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\core_cm3.o
+ .debug_frame   0x00000000      0x170 ..\obj\core_cm3.o
+ .text          0x00000000        0x0 ..\obj\lpc13xx_syscon.o
+ .data          0x00000000        0x0 ..\obj\lpc13xx_syscon.o
+ .bss           0x00000000        0x0 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_MemRemap
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetLockStatus
+                0x00000000       0x10 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_PLLClkSel
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_PLLUpdate
+                0x00000000       0x18 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_PLLConfig
+                0x00000000       0x28 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_PeriphResetCmd
+                0x00000000       0x28 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_AHBPeriphClockCmd
+                0x00000000       0x30 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_MCKSel
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_MCKUpdate
+                0x00000000       0x18 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_SetAHBClockDiv
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_SetSPIClockDiv
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_SetUARTClockDiv
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_SetWDTClockDiv
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_SetCLKOUTClockDiv
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SysOscConfig
+                0x00000000       0x20 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_WDTOscConfig
+                0x00000000       0x10 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_WDTClkSel
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_WDTClkUpdate
+                0x00000000       0x20 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_CLKOUTClkSel
+                0x00000000       0x10 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_CLKOUTClkDiv
+                0x00000000        0xc ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_CLKOUTClkUpdate
+                0x00000000       0x20 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetPIORstState
+                0x00000000       0x58 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_PowerCon
+                0x00000000       0x2c ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetPowerSta
+                0x00000000       0x18 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_DeepSleepPowerCon
+                0x00000000       0x2c ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_WakeupPowerCon
+                0x00000000       0x2c ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetWDTOsc
+                0x00000000       0xb0 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_StartLogicEdge
+                0x00000000       0x2c ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_StartLogicCmd
+                0x00000000       0x2c ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_StartLogicReset
+                0x00000000       0x10 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_StartLogicStatus
+                0x00000000       0x10 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetAHBClock
+                0x00000000       0x20 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetWDTClock
+                0x00000000       0x48 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetSSPClock
+                0x00000000       0x20 ..\obj\lpc13xx_syscon.o
+ .text.SYSCON_GetUARTClock
+                0x00000000       0x20 ..\obj\lpc13xx_syscon.o
+ .debug_info    0x00000000      0xbfa ..\obj\lpc13xx_syscon.o
+ .debug_abbrev  0x00000000      0x227 ..\obj\lpc13xx_syscon.o
+ .debug_loc     0x00000000      0x759 ..\obj\lpc13xx_syscon.o
+ .debug_aranges
+                0x00000000      0x130 ..\obj\lpc13xx_syscon.o
+ .debug_ranges  0x00000000      0x120 ..\obj\lpc13xx_syscon.o
+ .debug_line    0x00000000      0x4c8 ..\obj\lpc13xx_syscon.o
+ .debug_str     0x00000000      0x7fa ..\obj\lpc13xx_syscon.o
+ .comment       0x00000000       0x71 ..\obj\lpc13xx_syscon.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\lpc13xx_syscon.o
+ .debug_frame   0x00000000      0x248 ..\obj\lpc13xx_syscon.o
+ .text          0x00000000        0x0 ..\obj\system_LPC13xx.o
+ .bss           0x00000000        0x0 ..\obj\system_LPC13xx.o
+ .text          0x00000000        0x0 ..\obj\cdcuser.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\globalcomm.o
+ .data          0x00000000        0x0 ..\obj\globalcomm.o
+ .text          0x00000000        0x0 ..\obj\gpio.o
+ .data          0x00000000        0x0 ..\obj\gpio.o
+ .bss           0x00000000        0x0 ..\obj\gpio.o
+ .text.GPIO_ReadInput
+                0x00000000       0x1c ..\obj\gpio.o
+ .text.GPIO_ReadInputPin
+                0x00000000       0x20 ..\obj\gpio.o
+ .text.GPIO_EventInit
+                0x00000000       0x98 ..\obj\gpio.o
+ .text.GPIO_GetEventStatus
+                0x00000000       0x1c ..\obj\gpio.o
+ .text.GPIO_GetIntStatus
+                0x00000000       0x1c ..\obj\gpio.o
+ .text.GPIO_ClearInt
+                0x00000000       0x1c ..\obj\gpio.o
+ .text.GPIO_PortIntCmd
+                0x00000000       0x38 ..\obj\gpio.o
+ .text          0x00000000        0x0 ..\obj\usbhw.o
+ .data          0x00000000        0x0 ..\obj\usbhw.o
+ .bss           0x00000000        0x0 ..\obj\usbhw.o
+ .text.USB_Suspend
+                0x00000000        0x2 ..\obj\usbhw.o
+ .text.USB_Resume
+                0x00000000        0x2 ..\obj\usbhw.o
+ .text.USB_WakeUp
+                0x00000000       0x24 ..\obj\usbhw.o
+ .text.USB_ClearEPBuf
+                0x00000000        0xc ..\obj\usbhw.o
+ .text.USB_GetFrame
+                0x00000000       0x28 ..\obj\usbhw.o
+ .text          0x00000000        0x0 ..\obj\timer16.o
+ .data          0x00000000        0x0 ..\obj\timer16.o
+ .text          0x00000000        0x0 ..\obj\ScreenFunctions.o
+ .bss           0x00000000        0x0 ..\obj\ScreenFunctions.o
+ .text          0x00000000        0x0 ..\obj\DisplayGraphics.o
+ .text          0x00000000        0x0 ..\obj\usbuser.o
+ .data          0x00000000        0x0 ..\obj\usbuser.o
+ .text.USB_EndPoint2
+                0x00000000        0x2 ..\obj\usbuser.o
+ .text          0x00000000        0x0 ..\obj\usbcore.o
+ .data          0x00000000        0x0 ..\obj\usbcore.o
+ .bss           0x00000000        0x0 ..\obj\usbcore.o
+ .text          0x00000000        0x0 ..\obj\adc.o
+ .data          0x00000000        0x0 ..\obj\adc.o
+ .bss           0x00000000        0x8 ..\obj\adc.o
+ .text.ADCBurstRead
+                0x00000000       0x28 ..\obj\adc.o
+ .text          0x00000000        0x0 ..\obj\startup_lpc13xx.o
+ .data          0x00000000        0x0 ..\obj\startup_lpc13xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_lpc13xx.o
+ .text          0x00000000        0x0 ..\obj\timer32.o
+ .data          0x00000000        0x0 ..\obj\timer32.o
+ .bss           0x00000000        0x0 ..\obj\timer32.o
+ .text.enable_timer32
+                0x00000000       0x18 ..\obj\timer32.o
+ .text.disable_timer32
+                0x00000000       0x18 ..\obj\timer32.o
+ .text.reset_timer32
+                0x00000000       0x1c ..\obj\timer32.o
+ .text.OneShot  0x00000000       0x44 ..\obj\timer32.o
+ .text.init_timer32
+                0x00000000       0x38 ..\obj\timer32.o
+ .text          0x00000000        0x0 ..\obj\CapacitiveTouch.o
+ .text.SetChan0
+                0x00000000       0x14 ..\obj\CapacitiveTouch.o
+ .text.SetChan1
+                0x00000000       0x14 ..\obj\CapacitiveTouch.o
+ .text          0x00000000        0x0 ..\obj\Audio.o
+ .text          0x00000000        0x0 ..\obj\serial.o
+ .data          0x00000000        0x0 ..\obj\serial.o
+ .bss           0x00000000        0x0 ..\obj\serial.o
+ .text          0x00000000        0x0 ..\obj\usbdesc.o
+ .data          0x00000000        0x0 ..\obj\usbdesc.o
+ .bss           0x00000000        0x0 ..\obj\usbdesc.o
+ .text          0x00000000        0x0 ..\obj\DisplayModes.o
+ .text          0x00000000        0x0 ..\obj\flashmemory.o
+ .data          0x00000000        0x0 ..\obj\flashmemory.o
+ .text.Flash_EraseAll
+                0x00000000       0x1c ..\obj\flashmemory.o
+ .text.EndWAVData
+                0x00000000        0x4 ..\obj\flashmemory.o
+ .text          0x00000000        0x0 ..\obj\ssp.o
+ .data          0x00000000        0x0 ..\obj\ssp.o
+ .bss           0x00000000        0x0 ..\obj\ssp.o
+ .text          0x00000000        0x0 ..\obj\Peripherals.o
+ .text.HC595Output
+                0x00000000       0x10 ..\obj\Peripherals.o
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+ .text._atoi_r  0x00000000        0x8 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)
+ .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)
+ .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x10002000                _eram = 0x10002000
+
+.text           0x00000000     0x58d0
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ..\obj\startup_lpc13xx.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.I2C_IRQHandler
+                0x00000124      0x114 ..\obj\i2c.o
+                0x00000124                I2C_IRQHandler
+ .text.I2CInit  0x00000238       0x70 ..\obj\i2c.o
+                0x00000238                I2CInit
+ .text.I2CEngine
+                0x000002a8       0x48 ..\obj\i2c.o
+                0x000002a8                I2CEngine
+ .text.DS1337_WriteBuffer
+                0x000002f0       0x80 ..\obj\ds1337.o
+                0x000002f0                DS1337_WriteBuffer
+ .text.DS1337_Init
+                0x00000370       0x64 ..\obj\ds1337.o
+                0x00000370                DS1337_Init
+ .text.DS1337_WriteByte
+                0x000003d4       0x4c ..\obj\ds1337.o
+                0x000003d4                DS1337_WriteByte
+ .text.DS1337_ReadBuffer
+                0x00000420       0x8c ..\obj\ds1337.o
+                0x00000420                DS1337_ReadBuffer
+ .text.SystemInit
+                0x000004ac      0x1b8 ..\obj\system_LPC13xx.o
+                0x000004ac                SystemInit
+ .text.CDC_RdInBuf
+                0x00000664       0x2c ..\obj\cdcuser.o
+                0x00000664                CDC_RdInBuf
+ .text.CDC_WrInBuf
+                0x00000690       0x2c ..\obj\cdcuser.o
+                0x00000690                CDC_WrInBuf
+ .text.CDC_InBufAvailChar
+                0x000006bc       0x1c ..\obj\cdcuser.o
+                0x000006bc                CDC_InBufAvailChar
+ .text.CDC_RdOutBuf
+                0x000006d8       0x2c ..\obj\cdcuser.o
+                0x000006d8                CDC_RdOutBuf
+ .text.CDC_WrOutBuf
+                0x00000704       0x2c ..\obj\cdcuser.o
+                0x00000704                CDC_WrOutBuf
+ .text.CDC_OutBufAvailChar
+                0x00000730       0x1c ..\obj\cdcuser.o
+                0x00000730                CDC_OutBufAvailChar
+ .text.CDC_SendEncapsulatedCommand
+                0x0000074c        0x4 ..\obj\cdcuser.o
+                0x0000074c                CDC_SendEncapsulatedCommand
+ .text.CDC_GetEncapsulatedResponse
+                0x00000750        0x4 ..\obj\cdcuser.o
+                0x00000750                CDC_GetEncapsulatedResponse
+ .text.CDC_SetCommFeature
+                0x00000754        0x4 ..\obj\cdcuser.o
+                0x00000754                CDC_SetCommFeature
+ .text.CDC_GetCommFeature
+                0x00000758        0x4 ..\obj\cdcuser.o
+                0x00000758                CDC_GetCommFeature
+ .text.CDC_ClearCommFeature
+                0x0000075c        0x4 ..\obj\cdcuser.o
+                0x0000075c                CDC_ClearCommFeature
+ .text.CDC_SetLineCoding
+                0x00000760       0x34 ..\obj\cdcuser.o
+                0x00000760                CDC_SetLineCoding
+ .text.CDC_GetLineCoding
+                0x00000794       0x2c ..\obj\cdcuser.o
+                0x00000794                CDC_GetLineCoding
+ .text.CDC_SetControlLineState
+                0x000007c0        0x4 ..\obj\cdcuser.o
+                0x000007c0                CDC_SetControlLineState
+ .text.CDC_SendBreak
+                0x000007c4        0x4 ..\obj\cdcuser.o
+                0x000007c4                CDC_SendBreak
+ .text.CDC_BulkIn
+                0x000007c8       0x54 ..\obj\cdcuser.o
+                0x000007c8                CDC_BulkIn
+ .text.CDC_BulkOut
+                0x0000081c       0x3c ..\obj\cdcuser.o
+                0x0000081c                CDC_BulkOut
+ .text.CDC_GetSerialState
+                0x00000858       0x94 ..\obj\cdcuser.o
+                0x00000858                CDC_GetSerialState
+ .text.CDC_Init
+                0x000008ec       0x30 ..\obj\cdcuser.o
+                0x000008ec                CDC_Init
+ .text.CDC_NotificationIn
+                0x0000091c       0x34 ..\obj\cdcuser.o
+                0x0000091c                CDC_NotificationIn
+ .text._delay_ms
+                0x00000950       0x1e ..\obj\main.o
+                0x00000950                _delay_ms
+ *fill*         0x0000096e        0x2 00
+ .text.startup.main
+                0x00000970      0x338 ..\obj\main.o
+                0x00000970                main
+ .text.reverse  0x00000ca8       0x20 ..\obj\globalcomm.o
+                0x00000ca8                reverse
+ .text.itoa     0x00000cc8       0x3c ..\obj\globalcomm.o
+                0x00000cc8                itoa
+ .text.VCOM_CheckSerialState
+                0x00000d04       0x20 ..\obj\globalcomm.o
+                0x00000d04                VCOM_CheckSerialState
+ .text.Comm_write
+                0x00000d24       0x40 ..\obj\globalcomm.o
+                0x00000d24                Comm_write
+ .text.Comm_AvailChar
+                0x00000d64       0x18 ..\obj\globalcomm.o
+                0x00000d64                Comm_AvailChar
+ .text.Comm_data
+                0x00000d7c       0x40 ..\obj\globalcomm.o
+                0x00000d7c                Comm_data
+ .text.CommSend
+                0x00000dbc       0x40 ..\obj\globalcomm.o
+                0x00000dbc                CommSend
+ .text.CommSendString
+                0x00000dfc       0x14 ..\obj\globalcomm.o
+                0x00000dfc                CommSendString
+ .text.CommSendByte
+                0x00000e10       0x12 ..\obj\globalcomm.o
+                0x00000e10                CommSendByte
+ *fill*         0x00000e22        0x2 00
+ .text.ParseCommand
+                0x00000e24      0x5b4 ..\obj\globalcomm.o
+                0x00000e24                ParseCommand
+ .text.CommRead
+                0x000013d8       0x80 ..\obj\globalcomm.o
+                0x000013d8                CommRead
+ .text.GPIO_SetDir
+                0x00001458       0x3c ..\obj\gpio.o
+                0x00001458                GPIO_SetDir
+ .text.GPIO_SetBits
+                0x00001494       0x20 ..\obj\gpio.o
+                0x00001494                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x000014b4       0x24 ..\obj\gpio.o
+                0x000014b4                GPIO_ResetBits
+ .text.USBIOClkConfig
+                0x000014d8       0x4c ..\obj\usbhw.o
+                0x000014d8                USBIOClkConfig
+ .text.delay    0x00001524       0x16 ..\obj\usbhw.o
+                0x00001524                delay
+ .text.EPAdr    0x0000153a       0x10 ..\obj\usbhw.o
+                0x0000153a                EPAdr
+ *fill*         0x0000154a        0x2 00
+ .text.WrCmd    0x0000154c       0x18 ..\obj\usbhw.o
+                0x0000154c                WrCmd
+ .text.WrCmdDat
+                0x00001564       0x12 ..\obj\usbhw.o
+                0x00001564                WrCmdDat
+ .text.WrCmdEP  0x00001576       0x1c ..\obj\usbhw.o
+                0x00001576                WrCmdEP
+ *fill*         0x00001592        0x2 00
+ .text.RdCmdDat
+                0x00001594       0x1c ..\obj\usbhw.o
+                0x00001594                RdCmdDat
+ .text.USB_Connect
+                0x000015b0       0x18 ..\obj\usbhw.o
+                0x000015b0                USB_Connect
+ .text.USB_Reset
+                0x000015c8       0x18 ..\obj\usbhw.o
+                0x000015c8                USB_Reset
+ .text.USB_WakeUpCfg
+                0x000015e0        0x2 ..\obj\usbhw.o
+                0x000015e0                USB_WakeUpCfg
+ *fill*         0x000015e2        0x2 00
+ .text.USB_SetAddress
+                0x000015e4       0x28 ..\obj\usbhw.o
+                0x000015e4                USB_SetAddress
+ .text.USB_Init
+                0x0000160c       0x1c ..\obj\usbhw.o
+                0x0000160c                USB_Init
+ .text.USB_Configure
+                0x00001628       0x18 ..\obj\usbhw.o
+                0x00001628                USB_Configure
+ .text.USB_ConfigEP
+                0x00001640        0x2 ..\obj\usbhw.o
+                0x00001640                USB_ConfigEP
+ .text.USB_DirCtrlEP
+                0x00001642        0x2 ..\obj\usbhw.o
+                0x00001642                USB_DirCtrlEP
+ .text.USB_EnableEP
+                0x00001644       0x1c ..\obj\usbhw.o
+                0x00001644                USB_EnableEP
+ .text.USB_DisableEP
+                0x00001660       0x20 ..\obj\usbhw.o
+                0x00001660                USB_DisableEP
+ .text.USB_ResetEP
+                0x00001680       0x1c ..\obj\usbhw.o
+                0x00001680                USB_ResetEP
+ .text.USB_SetStallEP
+                0x0000169c       0x20 ..\obj\usbhw.o
+                0x0000169c                USB_SetStallEP
+ .text.USB_ClrStallEP
+                0x000016bc       0x1c ..\obj\usbhw.o
+                0x000016bc                USB_ClrStallEP
+ .text.USB_ReadEP
+                0x000016d8       0x54 ..\obj\usbhw.o
+                0x000016d8                USB_ReadEP
+ .text.USB_WriteEP
+                0x0000172c       0x4c ..\obj\usbhw.o
+                0x0000172c                USB_WriteEP
+ .text.USB_IRQHandler
+                0x00001778       0xb8 ..\obj\usbhw.o
+                0x00001778                USB_IRQHandler
+ .text.TIMER16_0_IRQHandler
+                0x00001830       0x70 ..\obj\timer16.o
+                0x00001830                TIMER16_0_IRQHandler
+ .text.TIMER16_1_IRQHandler
+                0x000018a0       0x38 ..\obj\timer16.o
+                0x000018a0                TIMER16_1_IRQHandler
+ .text.XY2Screen
+                0x000018d8       0x2c ..\obj\ScreenFunctions.o
+                0x000018d8                XY2Screen
+ .text.Coordinates2Screen
+                0x00001904       0x28 ..\obj\ScreenFunctions.o
+                0x00001904                Coordinates2Screen
+ .text.SetScreen
+                0x0000192c       0x20 ..\obj\ScreenFunctions.o
+                0x0000192c                SetScreen
+ .text.ClearScreen
+                0x0000194c       0x18 ..\obj\ScreenFunctions.o
+                0x0000194c                ClearScreen
+ .text.DisplayTime
+                0x00001964      0x1e4 ..\obj\DisplayGraphics.o
+                0x00001964                DisplayTime
+ .text.USB_EndPoint3
+                0x00001b48       0x12 ..\obj\usbuser.o
+                0x00001b48                USB_EndPoint3
+ *fill*         0x00001b5a        0x2 00
+ .text.USB_EndPoint1
+                0x00001b5c       0x34 ..\obj\usbuser.o
+                0x00001b5c                USB_EndPoint1
+ .text.USB_Reset_Event
+                0x00001b90        0x4 ..\obj\usbuser.o
+                0x00001b90                USB_Reset_Event
+ .text.USB_Suspend_Event
+                0x00001b94        0x2 ..\obj\usbuser.o
+                0x00001b94                USB_Suspend_Event
+ .text.USB_Resume_Event
+                0x00001b96        0x2 ..\obj\usbuser.o
+                0x00001b96                USB_Resume_Event
+ .text.USB_Configure_Event
+                0x00001b98        0xc ..\obj\usbuser.o
+                0x00001b98                USB_Configure_Event
+ .text.USB_ResetCore
+                0x00001ba4       0x38 ..\obj\usbcore.o
+                0x00001ba4                USB_ResetCore
+ .text.USB_SetupStage
+                0x00001bdc        0xc ..\obj\usbcore.o
+                0x00001bdc                USB_SetupStage
+ .text.USB_DataInStage
+                0x00001be8       0x28 ..\obj\usbcore.o
+                0x00001be8                USB_DataInStage
+ .text.USB_DataOutStage
+                0x00001c10       0x20 ..\obj\usbcore.o
+                0x00001c10                USB_DataOutStage
+ .text.USB_StatusInStage
+                0x00001c30        0xa ..\obj\usbcore.o
+                0x00001c30                USB_StatusInStage
+ *fill*         0x00001c3a        0x2 00
+ .text.USB_StatusOutStage
+                0x00001c3c        0xc ..\obj\usbcore.o
+                0x00001c3c                USB_StatusOutStage
+ .text.USB_ReqGetStatus
+                0x00001c48       0xa8 ..\obj\usbcore.o
+                0x00001c48                USB_ReqGetStatus
+ .text.USB_ReqSetClrFeature
+                0x00001cf0       0xc0 ..\obj\usbcore.o
+                0x00001cf0                USB_ReqSetClrFeature
+ .text.USB_ReqSetAddress
+                0x00001db0       0x24 ..\obj\usbcore.o
+                0x00001db0                USB_ReqSetAddress
+ .text.USB_ReqGetDescriptor
+                0x00001dd4       0x84 ..\obj\usbcore.o
+                0x00001dd4                USB_ReqGetDescriptor
+ .text.USB_ReqGetConfiguration
+                0x00001e58       0x24 ..\obj\usbcore.o
+                0x00001e58                USB_ReqGetConfiguration
+ .text.USB_ReqSetConfiguration
+                0x00001e7c      0x184 ..\obj\usbcore.o
+                0x00001e7c                USB_ReqSetConfiguration
+ .text.USB_ReqGetInterface
+                0x00002000       0x40 ..\obj\usbcore.o
+                0x00002000                USB_ReqGetInterface
+ .text.USB_ReqSetInterface
+                0x00002040      0x120 ..\obj\usbcore.o
+                0x00002040                USB_ReqSetInterface
+ .text.USB_EndPoint0
+                0x00002160      0x1f8 ..\obj\usbcore.o
+                0x00002160                USB_EndPoint0
+ .text.ADCInit  0x00002358       0x54 ..\obj\adc.o
+                0x00002358                ADCInit
+ .text.ADCRead  0x000023ac       0x48 ..\obj\adc.o
+                0x000023ac                ADCRead
+ .text.Default_Handler
+                0x000023f4        0x2 ..\obj\startup_lpc13xx.o
+                0x000023f4                DebugMon_Handler
+                0x000023f4                HardFault_Handler
+                0x000023f4                SysTick_Handler
+                0x000023f4                PendSV_Handler
+                0x000023f4                NMI_Handler
+                0x000023f4                UsageFault_Handler
+                0x000023f4                PIOINT1_IRQHandler
+                0x000023f4                SSP_IRQHandler
+                0x000023f4                USB_FIQHandler
+                0x000023f4                ADC_IRQHandler
+                0x000023f4                PIOINT2_IRQHandler
+                0x000023f4                BOD_IRQHandler
+                0x000023f4                WAKEUP_IRQHandler
+                0x000023f4                PIOINT0_IRQHandler
+                0x000023f4                MemManage_Handler
+                0x000023f4                WDT_IRQHandler
+                0x000023f4                SVC_Handler
+                0x000023f4                PIOINT3_IRQHandler
+                0x000023f4                BusFault_Handler
+                0x000023f4                FMC_IRQHandler
+ *fill*         0x000023f6        0x2 00
+ .text.Default_Reset_Handler
+                0x000023f8       0x4c ..\obj\startup_lpc13xx.o
+                0x000023f8                Default_Reset_Handler
+                0x000023f8                Reset_Handler
+ .text.TIMER32_0_IRQHandler
+                0x00002444       0x20 ..\obj\timer32.o
+                0x00002444                TIMER32_0_IRQHandler
+ .text.TIMER32_1_IRQHandler
+                0x00002464       0x28 ..\obj\timer32.o
+                0x00002464                TIMER32_1_IRQHandler
+ .text.deinit_CapANDAudio
+                0x0000248c       0x74 ..\obj\CapacitiveTouch.o
+                0x0000248c                deinit_CapANDAudio
+ .text.init_CapTouch
+                0x00002500       0xc8 ..\obj\CapacitiveTouch.o
+                0x00002500                init_CapTouch
+ .text.CaptureCapTouch
+                0x000025c8       0x40 ..\obj\CapacitiveTouch.o
+                0x000025c8                CaptureCapTouch
+ .text.ProcessCapTouch
+                0x00002608      0x18c ..\obj\CapacitiveTouch.o
+                0x00002608                ProcessCapTouch
+ .text.CalcCapTouch
+                0x00002794      0x290 ..\obj\CapacitiveTouch.o
+                0x00002794                CalcCapTouch
+ .text.SetSenCapTouch
+                0x00002a24       0x28 ..\obj\CapacitiveTouch.o
+                0x00002a24                SetSenCapTouch
+ .text.init_Audio
+                0x00002a4c       0x68 ..\obj\Audio.o
+                0x00002a4c                init_Audio
+ .text.Check_Audio
+                0x00002ab4       0x54 ..\obj\Audio.o
+                0x00002ab4                Check_Audio
+ .text.Play_Audio
+                0x00002b08       0x48 ..\obj\Audio.o
+                0x00002b08                Play_Audio
+ .text.SpeakTime
+                0x00002b50       0xfc ..\obj\Audio.o
+                0x00002b50                SpeakTime
+ .text.ser_OpenPort
+                0x00002c4c       0x5c ..\obj\serial.o
+                0x00002c4c                ser_OpenPort
+ .text.ser_ClosePort
+                0x00002ca8       0x38 ..\obj\serial.o
+                0x00002ca8                ser_ClosePort
+ .text.ser_InitPort
+                0x00002ce0       0xac ..\obj\serial.o
+                0x00002ce0                ser_InitPort
+ .text.ser_Read
+                0x00002d8c       0x2c ..\obj\serial.o
+                0x00002d8c                ser_Read
+ .text.ser_Write
+                0x00002db8       0x54 ..\obj\serial.o
+                0x00002db8                ser_Write
+ .text.ser_AvailChar
+                0x00002e0c       0x18 ..\obj\serial.o
+                0x00002e0c                ser_AvailChar
+ .text.ser_LineState
+                0x00002e24       0x10 ..\obj\serial.o
+                0x00002e24                ser_LineState
+ .text.UART_IRQHandler
+                0x00002e34       0x94 ..\obj\serial.o
+                0x00002e34                UART_IRQHandler
+ .text.xorshift16
+                0x00002ec8       0x1c ..\obj\DisplayModes.o
+                0x00002ec8                xorshift16
+ .text.xorshift8
+                0x00002ee4       0x1c ..\obj\DisplayModes.o
+                0x00002ee4                xorshift8
+ .text.Frontpanel_DOTS
+                0x00002f00       0x5c ..\obj\DisplayModes.o
+                0x00002f00                Frontpanel_DOTS
+ .text.Frontpanel_DefaultText
+                0x00002f5c      0x7a4 ..\obj\DisplayModes.o
+                0x00002f5c                Frontpanel_DefaultText
+ .text.FrontpanelMode_FallingStars
+                0x00003700      0x168 ..\obj\DisplayModes.o
+                0x00003700                FrontpanelMode_FallingStars
+ .text.FrontpanelMode_HorizontalSlideLeft
+                0x00003868      0x114 ..\obj\DisplayModes.o
+                0x00003868                FrontpanelMode_HorizontalSlideLeft
+ .text.FrontpanelMode_HorizontalSlideRight
+                0x0000397c      0x134 ..\obj\DisplayModes.o
+                0x0000397c                FrontpanelMode_HorizontalSlideRight
+ .text.FrontpanelMode_DissolveOutIn
+                0x00003ab0      0x190 ..\obj\DisplayModes.o
+                0x00003ab0                FrontpanelMode_DissolveOutIn
+ .text.FrontpanelMode_DissolveCross
+                0x00003c40      0x29c ..\obj\DisplayModes.o
+                0x00003c40                FrontpanelMode_DissolveCross
+ .text.FrontpanelMode_RandomIntro
+                0x00003edc       0x84 ..\obj\DisplayModes.o
+                0x00003edc                FrontpanelMode_RandomIntro
+ .text.FrontpanelMode_Basic
+                0x00003f60       0x74 ..\obj\DisplayModes.o
+                0x00003f60                FrontpanelMode_Basic
+ .text.Flash_WaitForIt
+                0x00003fd4       0x22 ..\obj\flashmemory.o
+                0x00003fd4                Flash_WaitForIt
+ .text.Flash_WriteEnd
+                0x00003ff6        0xe ..\obj\flashmemory.o
+                0x00003ff6                Flash_WriteEnd
+ .text.Flash_WriteEnable
+                0x00004004       0x18 ..\obj\flashmemory.o
+                0x00004004                Flash_WriteEnable
+ .text.Flash_WriteBegin
+                0x0000401c       0x30 ..\obj\flashmemory.o
+                0x0000401c                Flash_WriteBegin
+ .text.Flash_WriteByte
+                0x0000404c       0x30 ..\obj\flashmemory.o
+                0x0000404c                Flash_WriteByte
+ .text.Flash_WriteInit
+                0x0000407c        0xc ..\obj\flashmemory.o
+                0x0000407c                Flash_WriteInit
+ .text.Flash_EraseBytes
+                0x00004088       0x42 ..\obj\flashmemory.o
+                0x00004088                Flash_EraseBytes
+ .text.SetupWAVData
+                0x000040ca       0x88 ..\obj\flashmemory.o
+                0x000040ca                SetupWAVData
+ .text.ReadNextFromWAV
+                0x00004152       0x16 ..\obj\flashmemory.o
+                0x00004152                ReadNextFromWAV
+ .text.SSPSSEL  0x00004168        0x8 ..\obj\ssp.o
+                0x00004168                SSPSSEL
+ .text.SSPDSEL  0x00004170        0x8 ..\obj\ssp.o
+                0x00004170                SSPDSEL
+ .text.SSPSend  0x00004178       0x44 ..\obj\ssp.o
+                0x00004178                SSPSend
+ .text.SSPInit  0x000041bc       0x5c ..\obj\ssp.o
+                0x000041bc                SSPInit
+ .text.init_Bluetooth
+                0x00004218       0x24 ..\obj\Peripherals.o
+                0x00004218                init_Bluetooth
+ .text.GetTime  0x0000423c       0x84 ..\obj\Peripherals.o
+                0x0000423c                GetTime
+ .text.SetTime  0x000042c0       0x44 ..\obj\Peripherals.o
+                0x000042c0                SetTime
+ .text.GetIntensity
+                0x00004304       0xa4 ..\obj\Peripherals.o
+                0x00004304                GetIntensity
+ .text.init_ScreenRefresh
+                0x000043a8       0x4c ..\obj\Peripherals.o
+                0x000043a8                init_ScreenRefresh
+ .text.TLC5925Init
+                0x000043f4       0x4e ..\obj\Peripherals.o
+                0x000043f4                TLC5925Init
+ .text.TLC5925ShiftOut
+                0x00004442       0x3e ..\obj\Peripherals.o
+                0x00004442                TLC5925ShiftOut
+ .text.TLC5925Latch
+                0x00004480       0x16 ..\obj\Peripherals.o
+                0x00004480                TLC5925Latch
+ .text.TLC5925Output
+                0x00004496       0x10 ..\obj\Peripherals.o
+                0x00004496                TLC5925Output
+ .text.HC595Init
+                0x000044a6       0x3c ..\obj\Peripherals.o
+                0x000044a6                HC595Init
+ .text.HC595ShiftOut
+                0x000044e2       0x3e ..\obj\Peripherals.o
+                0x000044e2                HC595ShiftOut
+ .text.HC595Latch
+                0x00004520       0x16 ..\obj\Peripherals.o
+                0x00004520                HC595Latch
+ *fill*         0x00004536        0x2 00
+ .text.atoi     0x00004538        0x8 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+                0x00004538                atoi
+ .text.memset   0x00004540      0x12c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+                0x00004540                memset
+ .text.strlen   0x0000466c       0x60 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+                0x0000466c                strlen
+ .text.strncpy  0x000046cc      0x10c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+                0x000046cc                strncpy
+ .text.critical_factorization
+                0x000047d8       0xbc c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .text.two_way_long_needle
+                0x00004894      0x300 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .text.strstr   0x00004b94      0x2ec c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+                0x00004b94                strstr
+ .text.__strtok_r
+                0x00004e80       0x60 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+                0x00004e80                __strtok_r
+ .text.strtok_r
+                0x00004ee0        0x8 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+                0x00004ee0                strtok_r
+ .text._strtol_r
+                0x00004ee8      0x130 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+                0x00004ee8                _strtol_r
+ .text.strtol   0x00005018       0x1c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+                0x00005018                strtol
+ .text.memchr   0x00005034      0x140 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+                0x00005034                memchr
+ .text.memcmp   0x00005174       0xb8 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+                0x00005174                memcmp
+ .text.strchr   0x0000522c       0xfc c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)
+                0x0000522c                strchr
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00005328       0x21 ..\obj\main.o
+ .rodata.str1.1
+                0x00005349      0x29f ..\obj\globalcomm.o
+                                0x2a4 (size before relaxing)
+ .rodata        0x000055e8       0x10 ..\obj\gpio.o
+ .rodata.str1.1
+                0x000055f8        0xe ..\obj\DisplayGraphics.o
+                                 0x11 (size before relaxing)
+ *fill*         0x00005606        0x2 00
+ .rodata        0x00005608       0x14 ..\obj\usbuser.o
+                0x00005608                USB_P_EP
+ .rodata.str1.1
+                0x0000561c       0x78 ..\obj\CapacitiveTouch.o
+                                 0x92 (size before relaxing)
+ .rodata        0x00005694        0x7 ..\obj\serial.o
+ .rodata        0x0000569b       0xbe ..\obj\usbdesc.o
+                0x0000569b                USB_StringDescriptor
+                0x00005703                USB_ConfigDescriptor
+                0x00005747                USB_DeviceDescriptor
+ *fill*         0x00005759        0x3 00
+ .rodata        0x0000575c       0x40 ..\obj\flashmemory.o
+                0x0000575c                SoundUUR
+                0x00005760                SoundHALF
+                0x00005764                SoundIS
+                0x00005768                SoundHET
+                0x0000576c                SoundNumbers
+ .rodata.str1.1
+                0x0000579c       0x29 ..\obj\Peripherals.o
+ *fill*         0x000057c5        0x3 00
+ .rodata._ctype_
+                0x000057c8      0x104 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+                0x000057c8                _ctype_
+ .rodata.str1.4
+                0x000058cc        0x4 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ *(.eh_fram e*)
+
+.glue_7         0x000058d0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000058d0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000058d0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000058d0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000058d0        0x0
+ .iplt          0x00000000        0x0 ..\obj\i2c.o
+
+.rel.dyn        0x000058d0        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\i2c.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000058d0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000058d0                __exidx_end = .
+                0x000058d0                __etext = .
+                0x000058d0                _sidata = __etext
+
+.data           0x10000000      0x8dc load address 0x000058d0
+                0x10000000                __data_start__ = .
+                0x10000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x10000000        0x4 ..\obj\system_LPC13xx.o
+                0x10000000                SystemFrequency
+ .data          0x10000004        0xc ..\obj\cdcuser.o
+                0x10000004                CDC_LineCoding
+                0x1000000c                CDC_DepInEmpty
+                0x1000000e                CDC_DepOutEmpty
+ .data          0x10000010        0x8 ..\obj\main.o
+                0x10000010                DisplayMode
+                0x10000014                DisplayNotation
+ .data          0x10000018       0x34 ..\obj\ScreenFunctions.o
+                0x10000018                LiveColumnData
+ .data          0x1000004c        0x1 ..\obj\DisplayGraphics.o
+ *fill*         0x1000004d        0x3 00
+ .data          0x10000050       0x38 ..\obj\CapacitiveTouch.o
+                0x10000050                CapSensorOutput
+                0x10000058                CapHighThr
+                0x1000005c                CapMinTimeShort
+                0x10000060                CapMinTimeLong
+                0x10000074                CapFilter
+                0x10000084                CapLowThr
+ .data          0x10000088       0x20 ..\obj\Audio.o
+                0x10000088                PlayerIdle
+ .data          0x100000a8      0x3f8 ..\obj\DisplayModes.o
+                0x100000ac                FrontPanel
+                0x1000049c                TransSpeedFactor
+ .data          0x100004a0        0xc ..\obj\Peripherals.o
+                0x100004a0                DisplayIntensityMax
+                0x100004a4                DisplayIntensityMin
+                0x100004a8                DashEnabled
+ .data.__ctype_ptr__
+                0x100004ac        0x4 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+                0x100004ac                __ctype_ptr__
+ .data.impure_data
+                0x100004b0      0x428 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x100008d8        0x4 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                0x100008d8                _impure_ptr
+                0x100008dc                . = ALIGN (0x4)
+                0x100008dc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x100008dc                PROVIDE (__preinit_array_end, .)
+                0x100008dc                . = ALIGN (0x4)
+                0x100008dc                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x100008dc                PROVIDE (__init_array_end, .)
+                0x100008dc                . = ALIGN (0x4)
+                0x100008dc                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x100008dc                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x100008dc                . = ALIGN (0x4)
+                0x100008dc                __data_end__ = .
+                0x100008dc                _edata = __data_end__
+
+.igot.plt       0x100008dc        0x0 load address 0x000061ac
+ .igot.plt      0x00000000        0x0 ..\obj\i2c.o
+
+.bss            0x100008dc      0xa7c load address 0x000061ac
+                0x100008dc                . = ALIGN (0x4)
+                0x100008dc                __bss_start__ = .
+                0x100008dc                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x100008dc       0x18 ..\obj\i2c.o
+                0x100008dc                timeout
+                0x100008e0                WrIndex
+                0x100008e4                RdIndex
+                0x100008e8                I2CMasterState
+                0x100008ec                I2CCount
+                0x100008f0                I2CSlaveState
+ .bss           0x100008f4        0x1 ..\obj\ds1337.o
+ *fill*         0x100008f5        0x1 00
+ .bss           0x100008f6        0x4 ..\obj\cdcuser.o
+                0x100008f6                SendZLP
+                0x100008f7                CDC_DepOutWaiting
+                0x100008f8                CDC_SerialState
+ *fill*         0x100008fa        0x2 00
+ .bss           0x100008fc        0xc ..\obj\main.o
+                0x100008fc                USBConnected
+ .bss           0x10000908       0x10 ..\obj\globalcomm.o
+                0x1000090c                Comm_WritePntr
+                0x10000910                Command_Avail
+                0x10000914                Comm_ReadPntr
+ .bss           0x10000918        0xc ..\obj\timer16.o
+                0x1000091c                timer16_1_counter
+                0x10000920                timer16_0_counter
+ .bss           0x10000924       0x18 ..\obj\DisplayGraphics.o
+ .bss           0x1000093c        0x2 ..\obj\usbuser.o
+ *fill*         0x1000093e        0x2 00
+ .bss           0x10000940       0x3c ..\obj\CapacitiveTouch.o
+                0x10000940                CapAvail
+                0x10000954                ForceReset
+ .bss           0x1000097c       0x10 ..\obj\Audio.o
+                0x1000097c                AudioLength
+                0x10000989                AudioEnabled
+ .bss           0x1000098c      0x238 ..\obj\DisplayModes.o
+ .bss           0x10000bc4        0x4 ..\obj\flashmemory.o
+                0x10000bc4                CurrAddress
+ .bss           0x10000bc8       0x24 ..\obj\Peripherals.o
+                0x10000bdc                DisplayIntensity
+                0x10000be0                AmPm
+                0x10000be4                FrontLang
+                0x10000be8                DisplayIntensityABS
+ *(COMMON)
+ COMMON         0x10000bec       0x8c ..\obj\i2c.o
+                0x10000bec                I2CReadLength
+                0x10000bf0                I2CSlaveBuffer
+                0x10000c30                I2CMode
+                0x10000c34                I2CMasterBuffer
+                0x10000c74                I2CWriteLength
+ COMMON         0x10000c78        0x4 ..\obj\ds1337.o
+                0x10000c78                i
+ COMMON         0x10000c7c      0x49c ..\obj\cdcuser.o
+                0x10000c7c                BulkBufOut
+                0x10000cbc                NotificationBuf
+                0x10000cc6                BulkBufIn
+                0x10000d08                CDC_InBuf
+                0x10000f10                CDC_OutBuf
+ COMMON         0x10001118       0x14 ..\obj\main.o
+                0x10001118                UploadAudioProcessingSize
+                0x1000111c                UploadAudioProcessing
+                0x10001120                Hours
+                0x10001124                Minutes
+                0x10001128                Seconds
+ COMMON         0x1000112c       0x4c ..\obj\globalcomm.o
+                0x1000112c                CommBuff
+                0x1000116c                Location
+ COMMON         0x10001178       0x34 ..\obj\ScreenFunctions.o
+                0x10001178                NewColumnData
+ COMMON         0x100011ac       0x6a ..\obj\usbcore.o
+                0x100011ac                USB_AltSetting
+                0x100011ad                EP0Buf
+                0x100011f0                USB_EndPointMask
+                0x100011f4                USB_DeviceAddress
+                0x100011f8                USB_EndPointStall
+                0x100011fc                USB_EndPointHalt
+                0x10001200                USB_Configuration
+                0x10001201                SetupPacket
+                0x10001209                USB_NumInterfaces
+                0x1000120c                EP0Data
+                0x10001214                USB_DeviceStatus
+ *fill*         0x10001216        0x2 00
+ COMMON         0x10001218       0x20 ..\obj\adc.o
+                0x10001218                ADCValue
+ COMMON         0x10001238        0x8 ..\obj\CapacitiveTouch.o
+                0x10001238                CapRawVal
+ COMMON         0x10001240      0x118 ..\obj\serial.o
+                0x10001240                ser_in
+                0x100012c8                ser_txRestart
+                0x100012cc                ser_lineState
+                0x100012d0                ser_out
+                0x10001358                . = ALIGN (0x4)
+                0x10001358                __bss_end__ = .
+                0x10001358                _ebss = __bss_end__
+
+.heap           0x10001358        0x0
+                0x10001358                __end__ = .
+                0x10001358                _end = __end__
+                0x10001358                end = __end__
+ *(.heap*)
+                0x10001358                __HeapLimit = .
+
+.co_stack       0x10001358      0x400 load address 0x00006c28
+                0x10001358                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x10001358      0x400 ..\obj\startup_lpc13xx.o
+                0x10001358                pulStack
+                0x10002000                __StackTop = (ORIGIN (ram) + 0x2000)
+                0x10001c00                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x10002000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\i2c.o
+LOAD ..\obj\ds1337.o
+LOAD ..\obj\core_cm3.o
+LOAD ..\obj\lpc13xx_syscon.o
+LOAD ..\obj\system_LPC13xx.o
+LOAD ..\obj\cdcuser.o
+LOAD ..\obj\main.o
+LOAD ..\obj\globalcomm.o
+LOAD ..\obj\gpio.o
+LOAD ..\obj\usbhw.o
+LOAD ..\obj\timer16.o
+LOAD ..\obj\ScreenFunctions.o
+LOAD ..\obj\DisplayGraphics.o
+LOAD ..\obj\usbuser.o
+LOAD ..\obj\usbcore.o
+LOAD ..\obj\adc.o
+LOAD ..\obj\startup_lpc13xx.o
+LOAD ..\obj\timer32.o
+LOAD ..\obj\CapacitiveTouch.o
+LOAD ..\obj\Audio.o
+LOAD ..\obj\serial.o
+LOAD ..\obj\usbdesc.o
+LOAD ..\obj\DisplayModes.o
+LOAD ..\obj\flashmemory.o
+LOAD ..\obj\ssp.o
+LOAD ..\obj\Peripherals.o
+START GROUP
+LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a
+LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(firmware.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xfc56
+ .debug_info    0x00000000      0xd40 ..\obj\i2c.o
+ .debug_info    0x00000d40      0x64c ..\obj\ds1337.o
+ .debug_info    0x0000138c      0x520 ..\obj\system_LPC13xx.o
+ .debug_info    0x000018ac      0x770 ..\obj\cdcuser.o
+ .debug_info    0x0000201c      0xe72 ..\obj\main.o
+ .debug_info    0x00002e8e     0x13f5 ..\obj\globalcomm.o
+ .debug_info    0x00004283      0x8ac ..\obj\gpio.o
+ .debug_info    0x00004b2f     0x1465 ..\obj\usbhw.o
+ .debug_info    0x00005f94      0x397 ..\obj\timer16.o
+ .debug_info    0x0000632b      0x1ac ..\obj\ScreenFunctions.o
+ .debug_info    0x000064d7      0x5db ..\obj\DisplayGraphics.o
+ .debug_info    0x00006ab2      0x29d ..\obj\usbuser.o
+ .debug_info    0x00006d4f      0xd65 ..\obj\usbcore.o
+ .debug_info    0x00007ab4      0x696 ..\obj\adc.o
+ .debug_info    0x0000814a      0x129 ..\obj\startup_lpc13xx.o
+ .debug_info    0x00008273      0xce3 ..\obj\timer32.o
+ .debug_info    0x00008f56     0x1635 ..\obj\CapacitiveTouch.o
+ .debug_info    0x0000a58b     0x119d ..\obj\Audio.o
+ .debug_info    0x0000b728     0x10d0 ..\obj\serial.o
+ .debug_info    0x0000c7f8       0xe7 ..\obj\usbdesc.o
+ .debug_info    0x0000c8df      0xffe ..\obj\DisplayModes.o
+ .debug_info    0x0000d8dd      0x65c ..\obj\flashmemory.o
+ .debug_info    0x0000df39      0x686 ..\obj\ssp.o
+ .debug_info    0x0000e5bf     0x1697 ..\obj\Peripherals.o
+
+.debug_abbrev   0x00000000     0x2fd5
+ .debug_abbrev  0x00000000      0x1c4 ..\obj\i2c.o
+ .debug_abbrev  0x000001c4      0x201 ..\obj\ds1337.o
+ .debug_abbrev  0x000003c5       0xcd ..\obj\system_LPC13xx.o
+ .debug_abbrev  0x00000492      0x297 ..\obj\cdcuser.o
+ .debug_abbrev  0x00000729      0x250 ..\obj\main.o
+ .debug_abbrev  0x00000979      0x2c8 ..\obj\globalcomm.o
+ .debug_abbrev  0x00000c41      0x2ba ..\obj\gpio.o
+ .debug_abbrev  0x00000efb      0x37d ..\obj\usbhw.o
+ .debug_abbrev  0x00001278      0x182 ..\obj\timer16.o
+ .debug_abbrev  0x000013fa       0xe4 ..\obj\ScreenFunctions.o
+ .debug_abbrev  0x000014de      0x18b ..\obj\DisplayGraphics.o
+ .debug_abbrev  0x00001669      0x19f ..\obj\usbuser.o
+ .debug_abbrev  0x00001808      0x366 ..\obj\usbcore.o
+ .debug_abbrev  0x00001b6e      0x148 ..\obj\adc.o
+ .debug_abbrev  0x00001cb6       0xef ..\obj\startup_lpc13xx.o
+ .debug_abbrev  0x00001da5      0x1de ..\obj\timer32.o
+ .debug_abbrev  0x00001f83      0x335 ..\obj\CapacitiveTouch.o
+ .debug_abbrev  0x000022b8      0x29f ..\obj\Audio.o
+ .debug_abbrev  0x00002557      0x22e ..\obj\serial.o
+ .debug_abbrev  0x00002785       0x5b ..\obj\usbdesc.o
+ .debug_abbrev  0x000027e0      0x224 ..\obj\DisplayModes.o
+ .debug_abbrev  0x00002a04      0x161 ..\obj\flashmemory.o
+ .debug_abbrev  0x00002b65      0x1cc ..\obj\ssp.o
+ .debug_abbrev  0x00002d31      0x2a4 ..\obj\Peripherals.o
+
+.debug_loc      0x00000000     0x3ce7
+ .debug_loc     0x00000000       0x92 ..\obj\i2c.o
+ .debug_loc     0x00000092      0x1cc ..\obj\ds1337.o
+ .debug_loc     0x0000025e      0x109 ..\obj\system_LPC13xx.o
+ .debug_loc     0x00000367      0x3a8 ..\obj\cdcuser.o
+ .debug_loc     0x0000070f      0x176 ..\obj\main.o
+ .debug_loc     0x00000885      0x806 ..\obj\globalcomm.o
+ .debug_loc     0x0000108b      0x2c6 ..\obj\gpio.o
+ .debug_loc     0x00001351      0x5b8 ..\obj\usbhw.o
+ .debug_loc     0x00001909       0x40 ..\obj\timer16.o
+ .debug_loc     0x00001949      0x11b ..\obj\ScreenFunctions.o
+ .debug_loc     0x00001a64       0xe6 ..\obj\DisplayGraphics.o
+ .debug_loc     0x00001b4a       0x99 ..\obj\usbuser.o
+ .debug_loc     0x00001be3      0x501 ..\obj\usbcore.o
+ .debug_loc     0x000020e4       0xce ..\obj\adc.o
+ .debug_loc     0x000021b2       0x20 ..\obj\startup_lpc13xx.o
+ .debug_loc     0x000021d2       0xf9 ..\obj\timer32.o
+ .debug_loc     0x000022cb      0x23c ..\obj\CapacitiveTouch.o
+ .debug_loc     0x00002507      0x1d8 ..\obj\Audio.o
+ .debug_loc     0x000026df      0x289 ..\obj\serial.o
+ .debug_loc     0x00002968      0xb60 ..\obj\DisplayModes.o
+ .debug_loc     0x000034c8      0x2f9 ..\obj\flashmemory.o
+ .debug_loc     0x000037c1       0x72 ..\obj\ssp.o
+ .debug_loc     0x00003833      0x4b4 ..\obj\Peripherals.o
+
+.debug_aranges  0x00000000      0x7e8
+ .debug_aranges
+                0x00000000       0x40 ..\obj\i2c.o
+ .debug_aranges
+                0x00000040       0x38 ..\obj\ds1337.o
+ .debug_aranges
+                0x00000078       0x20 ..\obj\system_LPC13xx.o
+ .debug_aranges
+                0x00000098       0xb8 ..\obj\cdcuser.o
+ .debug_aranges
+                0x00000150       0x28 ..\obj\main.o
+ .debug_aranges
+                0x00000178       0x70 ..\obj\globalcomm.o
+ .debug_aranges
+                0x000001e8       0x68 ..\obj\gpio.o
+ .debug_aranges
+                0x00000250       0xf8 ..\obj\usbhw.o
+ .debug_aranges
+                0x00000348       0x28 ..\obj\timer16.o
+ .debug_aranges
+                0x00000370       0x38 ..\obj\ScreenFunctions.o
+ .debug_aranges
+                0x000003a8       0x20 ..\obj\DisplayGraphics.o
+ .debug_aranges
+                0x000003c8       0x50 ..\obj\usbuser.o
+ .debug_aranges
+                0x00000418       0x90 ..\obj\usbcore.o
+ .debug_aranges
+                0x000004a8       0x30 ..\obj\adc.o
+ .debug_aranges
+                0x000004d8       0x28 ..\obj\startup_lpc13xx.o
+ .debug_aranges
+                0x00000500       0x50 ..\obj\timer32.o
+ .debug_aranges
+                0x00000550       0x58 ..\obj\CapacitiveTouch.o
+ .debug_aranges
+                0x000005a8       0x38 ..\obj\Audio.o
+ .debug_aranges
+                0x000005e0       0x58 ..\obj\serial.o
+ .debug_aranges
+                0x00000638       0x18 ..\obj\usbdesc.o
+ .debug_aranges
+                0x00000650       0x70 ..\obj\DisplayModes.o
+ .debug_aranges
+                0x000006c0       0x70 ..\obj\flashmemory.o
+ .debug_aranges
+                0x00000730       0x38 ..\obj\ssp.o
+ .debug_aranges
+                0x00000768       0x80 ..\obj\Peripherals.o
+
+.debug_ranges   0x00000000      0x988
+ .debug_ranges  0x00000000       0x60 ..\obj\i2c.o
+ .debug_ranges  0x00000060       0x28 ..\obj\ds1337.o
+ .debug_ranges  0x00000088       0x10 ..\obj\system_LPC13xx.o
+ .debug_ranges  0x00000098       0xa8 ..\obj\cdcuser.o
+ .debug_ranges  0x00000140       0x60 ..\obj\main.o
+ .debug_ranges  0x000001a0       0x60 ..\obj\globalcomm.o
+ .debug_ranges  0x00000200       0x70 ..\obj\gpio.o
+ .debug_ranges  0x00000270       0xe8 ..\obj\usbhw.o
+ .debug_ranges  0x00000358       0x18 ..\obj\timer16.o
+ .debug_ranges  0x00000370       0x28 ..\obj\ScreenFunctions.o
+ .debug_ranges  0x00000398       0x10 ..\obj\DisplayGraphics.o
+ .debug_ranges  0x000003a8       0x70 ..\obj\usbuser.o
+ .debug_ranges  0x00000418       0x80 ..\obj\usbcore.o
+ .debug_ranges  0x00000498       0x20 ..\obj\adc.o
+ .debug_ranges  0x000004b8       0x18 ..\obj\startup_lpc13xx.o
+ .debug_ranges  0x000004d0       0x70 ..\obj\timer32.o
+ .debug_ranges  0x00000540       0xf0 ..\obj\CapacitiveTouch.o
+ .debug_ranges  0x00000630       0x40 ..\obj\Audio.o
+ .debug_ranges  0x00000670      0x128 ..\obj\serial.o
+ .debug_ranges  0x00000798       0xf8 ..\obj\DisplayModes.o
+ .debug_ranges  0x00000890       0x60 ..\obj\flashmemory.o
+ .debug_ranges  0x000008f0       0x28 ..\obj\ssp.o
+ .debug_ranges  0x00000918       0x70 ..\obj\Peripherals.o
+
+.debug_line     0x00000000     0x3e15
+ .debug_line    0x00000000      0x23f ..\obj\i2c.o
+ .debug_line    0x0000023f      0x2d6 ..\obj\ds1337.o
+ .debug_line    0x00000515      0x1a3 ..\obj\system_LPC13xx.o
+ .debug_line    0x000006b8      0x317 ..\obj\cdcuser.o
+ .debug_line    0x000009cf      0x40a ..\obj\main.o
+ .debug_line    0x00000dd9      0x479 ..\obj\globalcomm.o
+ .debug_line    0x00001252      0x279 ..\obj\gpio.o
+ .debug_line    0x000014cb      0x41c ..\obj\usbhw.o
+ .debug_line    0x000018e7      0x1e7 ..\obj\timer16.o
+ .debug_line    0x00001ace       0xf9 ..\obj\ScreenFunctions.o
+ .debug_line    0x00001bc7      0x11a ..\obj\DisplayGraphics.o
+ .debug_line    0x00001ce1      0x17e ..\obj\usbuser.o
+ .debug_line    0x00001e5f      0x405 ..\obj\usbcore.o
+ .debug_line    0x00002264      0x19b ..\obj\adc.o
+ .debug_line    0x000023ff       0xaa ..\obj\startup_lpc13xx.o
+ .debug_line    0x000024a9      0x23d ..\obj\timer32.o
+ .debug_line    0x000026e6      0x3f0 ..\obj\CapacitiveTouch.o
+ .debug_line    0x00002ad6      0x276 ..\obj\Audio.o
+ .debug_line    0x00002d4c      0x281 ..\obj\serial.o
+ .debug_line    0x00002fcd       0xdc ..\obj\usbdesc.o
+ .debug_line    0x000030a9      0x610 ..\obj\DisplayModes.o
+ .debug_line    0x000036b9      0x1f7 ..\obj\flashmemory.o
+ .debug_line    0x000038b0      0x1ea ..\obj\ssp.o
+ .debug_line    0x00003a9a      0x37b ..\obj\Peripherals.o
+
+.debug_str      0x00000000     0x2894
+ .debug_str     0x00000000      0xa10 ..\obj\i2c.o
+                                0xa4e (size before relaxing)
+ .debug_str     0x00000a10      0x141 ..\obj\ds1337.o
+                                0x428 (size before relaxing)
+ .debug_str     0x00000b51       0x63 ..\obj\system_LPC13xx.o
+                                0x410 (size before relaxing)
+ .debug_str     0x00000bb4      0x34c ..\obj\cdcuser.o
+                                0x464 (size before relaxing)
+ .debug_str     0x00000f00      0x2a7 ..\obj\main.o
+                                0x731 (size before relaxing)
+ .debug_str     0x000011a7      0x30a ..\obj\globalcomm.o
+                                0x580 (size before relaxing)
+ .debug_str     0x000014b1      0x1b6 ..\obj\gpio.o
+                                0x6d3 (size before relaxing)
+ .debug_str     0x00001667      0x211 ..\obj\usbhw.o
+                                0xbcd (size before relaxing)
+ .debug_str     0x00001878      0x11c ..\obj\timer16.o
+                                0x222 (size before relaxing)
+ .debug_str     0x00001994       0x52 ..\obj\ScreenFunctions.o
+                                0x188 (size before relaxing)
+ .debug_str     0x000019e6      0x185 ..\obj\DisplayGraphics.o
+                                0x2c5 (size before relaxing)
+ .debug_str     0x00001b6b       0x8a ..\obj\usbuser.o
+                                0x225 (size before relaxing)
+ .debug_str     0x00001bf5      0x3b5 ..\obj\usbcore.o
+                                0x773 (size before relaxing)
+ .debug_str     0x00001faa       0xa4 ..\obj\adc.o
+                                0x46b (size before relaxing)
+ .debug_str     0x0000204e       0xaa ..\obj\startup_lpc13xx.o
+                                0x11e (size before relaxing)
+ .debug_str     0x000020f8       0xde ..\obj\timer32.o
+                                0x9e7 (size before relaxing)
+ .debug_str     0x000021d6      0x1ba ..\obj\CapacitiveTouch.o
+                                0xbb4 (size before relaxing)
+ .debug_str     0x00002390       0xec ..\obj\Audio.o
+                                0xb15 (size before relaxing)
+ .debug_str     0x0000247c       0xec ..\obj\serial.o
+                                0xb0f (size before relaxing)
+ .debug_str     0x00002568       0x38 ..\obj\usbdesc.o
+                                0x155 (size before relaxing)
+ .debug_str     0x000025a0      0x150 ..\obj\DisplayModes.o
+                                0x402 (size before relaxing)
+ .debug_str     0x000026f0       0xaf ..\obj\flashmemory.o
+                                0x260 (size before relaxing)
+ .debug_str     0x0000279f       0x33 ..\obj\ssp.o
+                                0x335 (size before relaxing)
+ .debug_str     0x000027d2       0xc2 ..\obj\Peripherals.o
+                                0xc5b (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\i2c.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\ds1337.o
+ .comment       0x00000000       0x71 ..\obj\system_LPC13xx.o
+ .comment       0x00000000       0x71 ..\obj\cdcuser.o
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\globalcomm.o
+ .comment       0x00000000       0x71 ..\obj\gpio.o
+ .comment       0x00000000       0x71 ..\obj\usbhw.o
+ .comment       0x00000000       0x71 ..\obj\timer16.o
+ .comment       0x00000000       0x71 ..\obj\ScreenFunctions.o
+ .comment       0x00000000       0x71 ..\obj\DisplayGraphics.o
+ .comment       0x00000000       0x71 ..\obj\usbuser.o
+ .comment       0x00000000       0x71 ..\obj\usbcore.o
+ .comment       0x00000000       0x71 ..\obj\adc.o
+ .comment       0x00000000       0x71 ..\obj\startup_lpc13xx.o
+ .comment       0x00000000       0x71 ..\obj\timer32.o
+ .comment       0x00000000       0x71 ..\obj\CapacitiveTouch.o
+ .comment       0x00000000       0x71 ..\obj\Audio.o
+ .comment       0x00000000       0x71 ..\obj\serial.o
+ .comment       0x00000000       0x71 ..\obj\usbdesc.o
+ .comment       0x00000000       0x71 ..\obj\DisplayModes.o
+ .comment       0x00000000       0x71 ..\obj\flashmemory.o
+ .comment       0x00000000       0x71 ..\obj\ssp.o
+ .comment       0x00000000       0x71 ..\obj\Peripherals.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\i2c.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\ds1337.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\system_LPC13xx.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\cdcuser.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\globalcomm.o
+ .ARM.attributes
+                0x00000132       0x33 ..\obj\gpio.o
+ .ARM.attributes
+                0x00000165       0x33 ..\obj\usbhw.o
+ .ARM.attributes
+                0x00000198       0x33 ..\obj\timer16.o
+ .ARM.attributes
+                0x000001cb       0x33 ..\obj\ScreenFunctions.o
+ .ARM.attributes
+                0x000001fe       0x33 ..\obj\DisplayGraphics.o
+ .ARM.attributes
+                0x00000231       0x33 ..\obj\usbuser.o
+ .ARM.attributes
+                0x00000264       0x33 ..\obj\usbcore.o
+ .ARM.attributes
+                0x00000297       0x33 ..\obj\adc.o
+ .ARM.attributes
+                0x000002ca       0x33 ..\obj\startup_lpc13xx.o
+ .ARM.attributes
+                0x000002fd       0x33 ..\obj\timer32.o
+ .ARM.attributes
+                0x00000330       0x33 ..\obj\CapacitiveTouch.o
+ .ARM.attributes
+                0x00000363       0x33 ..\obj\Audio.o
+ .ARM.attributes
+                0x00000396       0x33 ..\obj\serial.o
+ .ARM.attributes
+                0x000003c9       0x33 ..\obj\usbdesc.o
+ .ARM.attributes
+                0x000003fc       0x33 ..\obj\DisplayModes.o
+ .ARM.attributes
+                0x0000042f       0x33 ..\obj\flashmemory.o
+ .ARM.attributes
+                0x00000462       0x33 ..\obj\ssp.o
+ .ARM.attributes
+                0x00000495       0x33 ..\obj\Peripherals.o
+ .ARM.attributes
+                0x000004c8       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+ .ARM.attributes
+                0x000004f5       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000522       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000054f       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x0000057c       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .ARM.attributes
+                0x000005a9       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+ .ARM.attributes
+                0x000005d6       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x00000603       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000630       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000065d       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x0000068a       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x000006b7       0x2d c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)
+
+.debug_frame    0x00000000     0x1398
+ .debug_frame   0x00000000       0x68 ..\obj\i2c.o
+ .debug_frame   0x00000068       0x90 ..\obj\ds1337.o
+ .debug_frame   0x000000f8       0x20 ..\obj\system_LPC13xx.o
+ .debug_frame   0x00000118      0x1b0 ..\obj\cdcuser.o
+ .debug_frame   0x000002c8       0x44 ..\obj\main.o
+ .debug_frame   0x0000030c      0x134 ..\obj\globalcomm.o
+ .debug_frame   0x00000440       0xbc ..\obj\gpio.o
+ .debug_frame   0x000004fc      0x258 ..\obj\usbhw.o
+ .debug_frame   0x00000754       0x40 ..\obj\timer16.o
+ .debug_frame   0x00000794       0x64 ..\obj\ScreenFunctions.o
+ .debug_frame   0x000007f8       0x34 ..\obj\DisplayGraphics.o
+ .debug_frame   0x0000082c       0x88 ..\obj\usbuser.o
+ .debug_frame   0x000008b4      0x150 ..\obj\usbcore.o
+ .debug_frame   0x00000a04       0x40 ..\obj\adc.o
+ .debug_frame   0x00000a44       0x38 ..\obj\startup_lpc13xx.o
+ .debug_frame   0x00000a7c       0x88 ..\obj\timer32.o
+ .debug_frame   0x00000b04       0xcc ..\obj\CapacitiveTouch.o
+ .debug_frame   0x00000bd0       0x7c ..\obj\Audio.o
+ .debug_frame   0x00000c4c       0xc4 ..\obj\serial.o
+ .debug_frame   0x00000d10      0x178 ..\obj\DisplayModes.o
+ .debug_frame   0x00000e88      0x110 ..\obj\flashmemory.o
+ .debug_frame   0x00000f98       0x64 ..\obj\ssp.o
+ .debug_frame   0x00000ffc      0x158 ..\obj\Peripherals.o
+ .debug_frame   0x00001154       0x30 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atoi.o)
+ .debug_frame   0x00001184       0x2c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x000011b0       0x20 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .debug_frame   0x000011d0       0x2c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .debug_frame   0x000011fc       0x88 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strstr.o)
+ .debug_frame   0x00001284       0x3c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtok_r.o)
+ .debug_frame   0x000012c0       0x54 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strtol.o)
+ .debug_frame   0x00001314       0x2c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memchr.o)
+ .debug_frame   0x00001340       0x2c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcmp.o)
+ .debug_frame   0x0000136c       0x2c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strchr.o)

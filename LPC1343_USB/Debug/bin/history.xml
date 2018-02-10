@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=firmware.map -Os --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\LPC1343_USB -TC:\CooCox\CoIDE\configuration\ProgramData\LPC1343_USB/arm-gcc-link.ld -g">
+      <target file="firmware.elf" lastModified="1616777598c">
+         <source file="..\obj\i2c.o" lastModified="1613509b54f"/>
+         <source file="..\obj\ds1337.o" lastModified="16161fe5125"/>
+         <source file="..\obj\core_cm3.o" lastModified="1613509bc73"/>
+         <source file="..\obj\lpc13xx_syscon.o" lastModified="1613509c01d"/>
+         <source file="..\obj\system_LPC13xx.o" lastModified="1613509c369"/>
+         <source file="..\obj\cdcuser.o" lastModified="1613509c695"/>
+         <source file="..\obj\main.o" lastModified="16161fe552d"/>
+         <source file="..\obj\globalcomm.o" lastModified="16161fe58e6"/>
+         <source file="..\obj\gpio.o" lastModified="1613509d173"/>
+         <source file="..\obj\usbhw.o" lastModified="1613509d4ce"/>
+         <source file="..\obj\timer16.o" lastModified="16161fe5c22"/>
+         <source file="..\obj\ScreenFunctions.o" lastModified="16161fe5ee1"/>
+         <source file="..\obj\DisplayGraphics.o" lastModified="16161fe6615"/>
+         <source file="..\obj\usbuser.o" lastModified="1613509e539"/>
+         <source file="..\obj\usbcore.o" lastModified="1613509ed96"/>
+         <source file="..\obj\adc.o" lastModified="16161fe6d49"/>
+         <source file="..\obj\startup_lpc13xx.o" lastModified="1613509fb61"/>
+         <source file="..\obj\timer32.o" lastModified="161350a0286"/>
+         <source file="..\obj\CapacitiveTouch.o" lastModified="16161fe79eb"/>
+         <source file="..\obj\Audio.o" lastModified="16161fe8100"/>
+         <source file="..\obj\serial.o" lastModified="16161fe83de"/>
+         <source file="..\obj\usbdesc.o" lastModified="161350a186f"/>
+         <source file="..\obj\DisplayModes.o" lastModified="16167774e22"/>
+         <source file="..\obj\flashmemory.o" lastModified="16161fe97c4"/>
+         <source file="..\obj\ssp.o" lastModified="161350a2948"/>
+         <source file="..\obj\Peripherals.o" lastModified="16161fe9f08"/>
+      </target>
+   </processor>
+</history>
