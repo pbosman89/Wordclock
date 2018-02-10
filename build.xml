@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="postbuild" name="test">
+	<property name="project.name" value="LPC1343_USB"/>
+	<property name="project.debug" value="Debug"/>
+	<property name="project.obj" value="Debug/obj"/>
+	<property name="project.bin" value="Debug/bin"/>
+
+	<!-- associate current path to the link file path-->
+	<dirname file="$${basedir}" property="linkdir"/>
+
+	<target depends="compile" name="postbuild">
+		<exec executable="cmd">
+			<arg line="/C arm-none-eabi-objdump -d ${project.bin}\${project.name}.elf &gt; ${project.bin}\${project.name}.txt"/>
+		</exec>
+		<exec executable="cmd">
+			<arg line="/C arm-none-eabi-objcopy -O binary ${project.bin}\${project.name}.elf ${project.bin}\${project.name}.bin"/>
+		</exec>		
+		<exec dir="${basedir}\${project.bin}" executable="cmd">
+			<arg line="/C arm-none-eabi-size ${project.name}.elf"/>
+		</exec>
+	</target>
+
+	<taskdef resource="cpptasks.tasks"/>
+	<target name="compile">
+		<mkdir dir="${project.bin}"/>
+		<mkdir dir="${project.obj}"/>
+		<cc debug="true" objdir="${project.obj}" outfile="${project.bin}/${project.name}.elf" outtype="executable" subsystem="console">
+			<!-- compile all the c source file in the project -->
+			<fileset dir="." includes="**/*.c"/>
+			<fileset dir="." includes="**/*.s"/>
+			<project outfile="${project.name}.elf" overwrite="true" type="xcode"/>
+			
+			<!-- defines -->
+			<defineset>
+			  <define name="LPC1343"/>
+</defineset>
+			
+			<!-- include compile path -->
+							
+			<!-- arm-none-eabi-gcc compiler arguments -->
+			<compilerarg value="-mcpu=cortex-m3"/>
+			<compilerarg value="-mthumb"/>
+			<compilerarg value="-Wall"/>			
+			<compilerarg value="-ffunction-sections"/>
+			<compilerarg value="-O0"/>
+			<compilerarg value="-g3"/>
+			
+			<!-- arm-none-eabi-gcc linker arguments -->
+			<linkerarg value="-O0"/>
+			<linkerarg value="-nostartfiles"/>
+			<linkerarg value="-Map=${project.name}.map"/>
+			<linkerarg value="-mcpu=cortex-m3"/>
+			<linkerarg value="-mthumb"/>
+			<linkerarg value="-L${linkdir}"/>
+			<linkerarg value="--gc-sections"/>
+			<linkerarg value="-T${linkdir}\link.ld"/>
+		
+      <!-- include compile path -->
+      <includepath path="."/>
+      <includepath path="cmsis"/>
+      <includepath path="cmsis_boot"/>
+      <includepath path="lpc13xx_lib/include"/>  
+      <includepath path="CoOS/kernel"/>
+      <includepath path="CoOS/portable"/>
+      <includepath path="USB_Stack"/>
+      <includepath path="COX/COX_Peripheral"/>  
+    </cc>
+	</target>
+
+	<target name="clean">
+		<delete dir="${project.bin}"/>
+		<delete dir="${project.obj}"/>
+		<delete dir="${project.debug}"/>
+		<delete dir="${project.name}.elf.xcodeproj"/>
+	</target>
+	
+	<target depends="clean" name="rebuild">
+		<antcall target="postbuild"/>
+	</target>
+
+</project>

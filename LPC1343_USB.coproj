@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 2.0.5" name="LPC1343_USB">
+  <Target name="LPC1343_USB" isCurrent="1">
+    <Device manufacturerId="7" manufacturerName="NXP" chipId="153" chipName="lpc1343fbd48" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="4"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="LPC1343"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="DiscardUnusedSections" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00008000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00002000" startValue="0x10000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../../../coocox/coide/configuration/programdata/lpc1343_usb/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="firmware"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="1" value="&quot;C:\CooCox\CoIDE\workspace\Wordclock\lpcrc.exe&quot; &quot;C:\CooCox\CoIDE\workspace\WordClock\lpc1343_usb\Debug\bin\firmware.bin&quot;"/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="LPC11xx_32.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./"/>
+  <Files>
+    <File name="globalcomm.c" path="globalcomm.c" type="1"/>
+    <File name="projectconfig.h" path="projectconfig.h" type="1"/>
+    <File name="ds1337.c" path="ds1337.c" type="1"/>
+    <File name="USB_Stack/usbcore.c" path="USB_Stack/usbcore.c" type="1"/>
+    <File name="USB_Stack/usbreg.h" path="USB_Stack/usbreg.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="flashmemory.h" path="flashmemory.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="USB_Stack/usbuser.c" path="USB_Stack/usbuser.c" type="1"/>
+    <File name="USB_Stack/usbdesc.h" path="USB_Stack/usbdesc.h" type="1"/>
+    <File name="core/gpio/gpio.c" path="core/gpio/gpio.c" type="1"/>
+    <File name="core/timer32/timer32.c" path="core/timer32/timer32.c" type="1"/>
+    <File name="ScreenFunctions.h" path="ScreenFunctions.h" type="1"/>
+    <File name="DisplayModes.c" path="DisplayModes.c" type="1"/>
+    <File name="core/i2c/i2c.h" path="core/i2c/i2c.h" type="1"/>
+    <File name="lpc13xx_lib/source/lpc13xx_syscon.c" path="lpc13xx_lib/source/lpc13xx_syscon.c" type="1"/>
+    <File name="core" path="" type="2"/>
+    <File name="USB_Stack/usbcore.h" path="USB_Stack/usbcore.h" type="1"/>
+    <File name="lpc13xx_lib/include/lpc13xx_libcfg.h" path="lpc13xx_lib/include/lpc13xx_libcfg.h" type="1"/>
+    <File name="ScreenFunctions.c" path="ScreenFunctions.c" type="1"/>
+    <File name="core/timer32/timer32.h" path="core/timer32/timer32.h" type="1"/>
+    <File name="DisplayGraphics.h" path="DisplayGraphics.h" type="1"/>
+    <File name="cmsis/core_cm3.c" path="cmsis/core_cm3.c" type="1"/>
+    <File name="core/i2c" path="" type="2"/>
+    <File name="cmsis_boot/LPC13xx.h" path="cmsis_boot/LPC13xx.h" type="1"/>
+    <File name="lpc13xx_lib/source" path="" type="2"/>
+    <File name="USB_Stack/usb.h" path="USB_Stack/usb.h" type="1"/>
+    <File name="cmsis_boot/system_LPC13xx.c" path="cmsis_boot/system_LPC13xx.c" type="1"/>
+    <File name="USB_Stack/cdcuser.h" path="USB_Stack/cdcuser.h" type="1"/>
+    <File name="core/timer16/timer16.h" path="core/timer16/timer16.h" type="1"/>
+    <File name="USB_Stack/serial.h" path="USB_Stack/serial.h" type="1"/>
+    <File name="DisplayModes.h" path="DisplayModes.h" type="1"/>
+    <File name="core/adc" path="" type="2"/>
+    <File name="globalcomm.h" path="globalcomm.h" type="1"/>
+    <File name="cmsis_boot/startup/startup_lpc13xx.c" path="cmsis_boot/startup/startup_lpc13xx.c" type="1"/>
+    <File name="core/adc/adc.c" path="core/adc/adc.c" type="1"/>
+    <File name="USB_Stack/usbcfg.h" path="USB_Stack/usbcfg.h" type="1"/>
+    <File name="lpc13xx_lib/include/lpc_types.h" path="lpc13xx_lib/include/lpc_types.h" type="1"/>
+    <File name="Audio.h" path="Audio.h" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="core/gpio/gpio.h" path="core/gpio/gpio.h" type="1"/>
+    <File name="USB_Stack/config.h" path="USB_Stack/config.h" type="1"/>
+    <File name="core/timer32" path="" type="2"/>
+    <File name="USB_Stack/cdcuser.c" path="USB_Stack/cdcuser.c" type="1"/>
+    <File name="USB_Stack/usbhw.c" path="USB_Stack/usbhw.c" type="1"/>
+    <File name="lpc13xx_lib" path="" type="2"/>
+    <File name="core/gpio" path="" type="2"/>
+    <File name="lpc13xx_lib/include" path="" type="2"/>
+    <File name="core/ssp" path="" type="2"/>
+    <File name="core/timer16/timer16.c" path="core/timer16/timer16.c" type="1"/>
+    <File name="flashmemory.c" path="flashmemory.c" type="1"/>
+    <File name="core/ssp/ssp.c" path="core/ssp/ssp.c" type="1"/>
+    <File name="cmsis_boot/system_LPC13xx.h" path="cmsis_boot/system_LPC13xx.h" type="1"/>
+    <File name="core/timer16" path="" type="2"/>
+    <File name="CapacitiveTouch.h" path="CapacitiveTouch.h" type="1"/>
+    <File name="lpc13xx_lib/include/lpc13xx_syscon.h" path="lpc13xx_lib/include/lpc13xx_syscon.h" type="1"/>
+    <File name="core/gpio/.DS_Store" path="core/gpio/.DS_Store" type="1"/>
+    <File name="USB_Stack/type.h" path="USB_Stack/type.h" type="1"/>
+    <File name="Peripherals.h" path="Peripherals.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="core/i2c/i2c.c" path="core/i2c/i2c.c" type="1"/>
+    <File name="Peripherals.c" path="Peripherals.c" type="1"/>
+    <File name="USB_Stack/cdc.h" path="USB_Stack/cdc.h" type="1"/>
+    <File name="USB_Stack" path="" type="2"/>
+    <File name="USB_Stack/serial.c" path="USB_Stack/serial.c" type="1"/>
+    <File name="ds1337.h" path="ds1337.h" type="1"/>
+    <File name="Audio.c" path="Audio.c" type="1"/>
+    <File name="core/ssp/ssp.h" path="core/ssp/ssp.h" type="1"/>
+    <File name="CapacitiveTouch.c" path="CapacitiveTouch.c" type="1"/>
+    <File name="USB_Stack/usbuser.h" path="USB_Stack/usbuser.h" type="1"/>
+    <File name="USB_Stack/usbdesc.c" path="USB_Stack/usbdesc.c" type="1"/>
+    <File name="USB_Stack/usbhw.h" path="USB_Stack/usbhw.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="core/adc/adc.h" path="core/adc/adc.h" type="1"/>
+    <File name="DisplayGraphics.c" path="DisplayGraphics.c" type="1"/>
+  </Files>
+</Project>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.search.ui.views.SearchView"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+</fastViewData>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/WordClock/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/WordClock/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5337" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="projectconfig.h" partName="projectconfig.h" path="C:/CooCox/CoIDE/workspace/WordClock/projectconfig.h" title="projectconfig.h" tooltip="C:/CooCox/CoIDE/workspace/WordClock/projectconfig.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/projectconfig.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1090" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="globalcomm.c" partName="globalcomm.c" path="C:/CooCox/CoIDE/workspace/WordClock/globalcomm.c" title="globalcomm.c" tooltip="C:/CooCox/CoIDE/workspace/WordClock/globalcomm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/globalcomm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3414" selectionTopPixel="4320"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Peripherals.c" partName="Peripherals.c" path="C:/CooCox/CoIDE/workspace/WordClock/Peripherals.c" title="Peripherals.c" tooltip="C:/CooCox/CoIDE/workspace/WordClock/Peripherals.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/Peripherals.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5960" selectionTopPixel="3449"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DisplayGraphics.c" partName="DisplayGraphics.c" path="C:/CooCox/CoIDE/workspace/WordClock/DisplayGraphics.c" title="DisplayGraphics.c" tooltip="C:/CooCox/CoIDE/workspace/WordClock/DisplayGraphics.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/DisplayGraphics.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="653" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="DisplayModes.c" partName="DisplayModes.c" path="C:/CooCox/CoIDE/workspace/WordClock/DisplayModes.c" title="DisplayModes.c" tooltip="C:/CooCox/CoIDE/workspace/WordClock/DisplayModes.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/DisplayModes.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1789" selectionTopPixel="2100"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DisplayModes.h" partName="DisplayModes.h" path="C:/CooCox/CoIDE/workspace/WordClock/DisplayModes.h" title="DisplayModes.h" tooltip="C:/CooCox/CoIDE/workspace/WordClock/DisplayModes.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LPC1343_USB/DisplayModes.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<expanded>
+<element path="/LPC1343_USB"/>
+<element path="/LPC1343_USB/core"/>
+<element path="/LPC1343_USB/core/i2c"/>
+<element path="/LPC1343_USB/core/timer16"/>
+<element path="/LPC1343_USB/core/timer32"/>
+<element path="/LPC1343_USB/lpc13xx_lib"/>
+</expanded>
+<selection>
+<element path="/LPC1343_USB/DisplayModes.h"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.cdt.ui.pdomSearchViewPage" definitionColumnWidth="150" locationColumnWidth="300" matchColumnWidth="300" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" showEnclosingDefinitions="true"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@1f52aaf" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2986185"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c55ba7">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<page content="org.coocox.component.ui.view.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7497497" ratioLeft="749" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c55ba7">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1f52aaf" ratio="0.6673774" ratioLeft="626" ratioRight="312" relationship="4" relative="org.eclipse.ui.internal.ViewStack@c55ba7">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.312566" ratioLeft="296" ratioRight="651" relationship="2" relative="org.eclipse.ui.internal.ViewStack@c55ba7"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1045a5e" ratio="0.7192308" ratioLeft="561" ratioRight="219" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayModes.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/projectconfig.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/Peripherals.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayGraphics.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/ds1337.h"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/usbhw.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/usbreg.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/usbuser.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/serial.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/cdcuser.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/usbhw.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/globalcomm.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/globalcomm.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/USB_Stack/serial.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/main.c"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
+<org.coocox.welcome.ui.WelcomePage/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayModes.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayGraphics.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayModes.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayModes.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/Peripherals.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/globalcomm.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/projectconfig.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayGraphics.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LPC1343_USB/DisplayModes.c"/>
+</editors>
+<item historyLabel="usbhw.c" index="6">
+<position info="not_deleted" x="1717" y="0"/>
+</item>
+<item historyLabel="Configuration" index="5"/>
+<item historyLabel="usbreg.h" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Configuration" index="5"/>
+<item historyLabel="ds1337.h" index="4">
+<position info="not_deleted" x="305" y="28"/>
+</item>
+<item historyLabel="Configuration" index="5"/>
+<item historyLabel="usbuser.c" index="8">
+<position info="not_deleted" x="3526" y="14"/>
+</item>
+<item historyLabel="Configuration" index="5"/>
+<item historyLabel="Peripherals.c" index="2">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="serial.c" index="9">
+<position info="not_deleted" x="9024" y="0"/>
+</item>
+<item historyLabel="cdcuser.c" index="10">
+<position info="not_deleted" x="6675" y="0"/>
+</item>
+<item historyLabel="serial.c" index="9">
+<position info="not_deleted" x="9024" y="0"/>
+</item>
+<item historyLabel="Peripherals.c" index="2">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="usbhw.h" index="11">
+<position info="not_deleted" x="2612" y="77"/>
+</item>
+<item historyLabel="Peripherals.c" index="2">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="globalcomm.c" index="12">
+<position info="not_deleted" x="5007" y="33"/>
+</item>
+<item historyLabel="globalcomm.h" index="13">
+<position info="not_deleted" x="134" y="2"/>
+</item>
+<item historyLabel="serial.h" index="14">
+<position info="not_deleted" x="1531" y="0"/>
+</item>
+<item historyLabel="globalcomm.h" index="13">
+<position info="not_deleted" x="134" y="2"/>
+</item>
+<item historyLabel="main.c" index="15">
+<position info="not_deleted" x="2158" y="0"/>
+</item>
+<item historyLabel="welcome" index="16"/>
+<item historyLabel="main.c" index="15">
+<position info="not_deleted" x="2158" y="0"/>
+</item>
+<item historyLabel="DisplayModes.c" index="0">
+<position info="not_deleted" x="11952" y="0"/>
+</item>
+<item historyLabel="DisplayModes.h" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DisplayModes.c" index="0">
+<position info="not_deleted" x="12111" y="0"/>
+</item>
+<item historyLabel="DisplayGraphics.c" index="3">
+<position info="not_deleted" x="771" y="0"/>
+</item>
+<item historyLabel="globalcomm.h" index="13">
+<position info="not_deleted" x="134" y="2"/>
+</item>
+<item historyLabel="DisplayGraphics.c" index="3">
+<position info="not_deleted" x="1856" y="0"/>
+</item>
+<item historyLabel="globalcomm.c" index="12">
+<position info="not_deleted" x="5007" y="33"/>
+</item>
+<item historyLabel="Peripherals.c" index="2">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="globalcomm.c" index="12">
+<position info="not_deleted" x="5007" y="33"/>
+</item>
+<item historyLabel="projectconfig.h" index="1">
+<position info="not_deleted" x="314" y="0"/>
+</item>
+<item historyLabel="main.c" index="15">
+<position info="not_deleted" x="2158" y="0"/>
+</item>
+<item historyLabel="Peripherals.c" index="2">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="DisplayGraphics.c" index="3">
+<position info="not_deleted" x="1856" y="0"/>
+</item>
+<item historyLabel="DisplayModes.c" index="0">
+<position info="not_deleted" x="12111" y="0"/>
+</item>
+<item historyLabel="DisplayModes.h" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DisplayGraphics.h" index="18">
+<position info="not_deleted" x="78" y="0"/>
+</item>
+<item historyLabel="DisplayModes.h" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DisplayGraphics.c" index="3">
+<position info="not_deleted" x="1856" y="0"/>
+</item>
+<item historyLabel="DisplayModes.c" index="19">
+<position/>
+</item>
+<item historyLabel="DisplayModes.h" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DisplayModes.c" index="19">
+<position/>
+</item>
+<item historyLabel="Peripherals.c" index="21">
+<position info="not_deleted" x="417" y="0"/>
+</item>
+<item historyLabel="globalcomm.c" index="22">
+<position info="not_deleted" x="5569" y="33"/>
+</item>
+<item historyLabel="projectconfig.h" index="23">
+<position info="not_deleted" x="314" y="0"/>
+</item>
+<item historyLabel="main.c" index="24">
+<position info="not_deleted" x="5337" y="0"/>
+</item>
+<item historyLabel="globalcomm.c" index="22">
+<position info="not_deleted" x="19" y="0"/>
+</item>
+<item historyLabel="DisplayGraphics.c" index="25">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item active="true" historyLabel="DisplayModes.c" index="26">
+<position info="not_deleted" x="26800" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ds1337.h" tooltip="LPC1343_USB/ds1337.h">
+<persistable path="/LPC1343_USB/ds1337.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbcore.c" tooltip="LPC1343_USB/USB_Stack/usbcore.c">
+<persistable path="/LPC1343_USB/USB_Stack/usbcore.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DisplayGraphics.c" tooltip="LPC1343_USB/DisplayGraphics.c">
+<persistable path="/LPC1343_USB/DisplayGraphics.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CapacitiveTouch.c" tooltip="LPC1343_USB/CapacitiveTouch.c">
+<persistable path="/LPC1343_USB/CapacitiveTouch.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdlib.h" tooltip="c:\program files (x86)\gnu tools arm embedded\7 2017-q4-major\arm-none-eabi\include\stdlib.h">
+<persistable uri="file:/c:/program%20files%20(x86)/gnu%20tools%20arm%20embedded/7%202017-q4-major/arm-none-eabi/include/stdlib.h"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="inttypes.h" tooltip="c:\program files (x86)\gnu tools arm embedded\7 2017-q4-major\arm-none-eabi\include\inttypes.h">
+<persistable uri="file:/c:/program%20files%20(x86)/gnu%20tools%20arm%20embedded/7%202017-q4-major/arm-none-eabi/include/inttypes.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbcore.h" tooltip="LPC1343_USB/USB_Stack/usbcore.h">
+<persistable path="/LPC1343_USB/USB_Stack/usbcore.h"/>
+</file>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>&#x0A;<subPage/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashmemory.c" tooltip="LPC1343_USB/flashmemory.c">
+<persistable path="/LPC1343_USB/flashmemory.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2c.c" tooltip="LPC1343_USB/core/i2c/i2c.c">
+<persistable path="/LPC1343_USB/core/i2c/i2c.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Peripherals.c" tooltip="LPC1343_USB/Peripherals.c">
+<persistable path="/LPC1343_USB/Peripherals.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ScreenFunctions.c" tooltip="LPC1343_USB/ScreenFunctions.c">
+<persistable path="/LPC1343_USB/ScreenFunctions.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lpc_types.h" tooltip="LPC1343_USB/lpc13xx_lib/include/lpc_types.h">
+<persistable path="/LPC1343_USB/lpc13xx_lib/include/lpc_types.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer16.c" tooltip="LPC1343_USB/core/timer16/timer16.c">
+<persistable path="/LPC1343_USB/core/timer16/timer16.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashmemory.h" tooltip="LPC1343_USB/flashmemory.h">
+<persistable path="/LPC1343_USB/flashmemory.h"/>
+</file>
+</mruList>
+</workbench>
